@@ -1,0 +1,21 @@
+Caravel Openframe for GF180MCU
+--------------------------------------------------------------
+
+These instructions are currently very incomplete.
+
+The top level layout is "caravel_openframe.mag"
+
+To create a new openframe chip with a custom user project:
+
+(1) Clone or fork this repository
+(2) Add verilog for the user project in ../verilog/rtl/
+(3) The user project verilog top level should be named
+    "openframe_user_project" in file "openframe_user_project.v",
+    replacing the template file.
+(4) If there are multiple verilog files in the user project,
+    either include them from the top level verilog or add them
+    to "netlists.v"
+(5) Set the user ID for the project with ../scripts/set_user_id.sh.
+(6) Do a top-level extraction for LVS with ../scripts/run_extract.sh
+(7) Run LVS with run_lvs.sh in the ../lvs/ directory.
+(8) Generate final GDS using the script ../scripts/run_gen_gds.sh

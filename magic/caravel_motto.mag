@@ -1,0 +1,67 @@
+magic
+tech gf180mcuD
+magscale 1 5
+timestamp 1670447192
+<< fillblock >>
+rect 0 0 9505 1700
+use font_6C  font_6C_0 $PDKPATH/libs.ref/gf180mcu_ocd_alpha_small/mag
+timestamp 1654634570
+transform 1 0 2330 0 1 345
+box 0 0 108 756
+use font_6E  font_6E_0 $PDKPATH/libs.ref/gf180mcu_ocd_alpha_small/mag
+timestamp 1654634570
+transform 1 0 3060 0 1 345
+box 0 0 324 540
+use font_22  font_22_0 $PDKPATH/libs.ref/gf180mcu_ocd_alpha_small/mag
+timestamp 1654634570
+transform 1 0 240 0 1 715
+box 0 324 324 756
+use font_22  font_22_1
+timestamp 1654634570
+transform 1 0 8900 0 1 715
+box 0 324 324 756
+use font_43  font_43_0 $PDKPATH/libs.ref/gf180mcu_ocd_alpha_small/mag
+timestamp 1654634570
+transform 1 0 7750 0 1 340
+box 0 0 324 756
+use font_49  font_49_0 $PDKPATH/libs.ref/gf180mcu_ocd_alpha_small/mag
+timestamp 1654634570
+transform 1 0 7155 0 1 350
+box 0 0 324 756
+use font_53  font_53_0 $PDKPATH/libs.ref/gf180mcu_ocd_alpha_small/mag
+timestamp 1654634570
+transform 1 0 845 0 1 355
+box 0 0 324 756
+use font_54  font_54_0 $PDKPATH/libs.ref/gf180mcu_ocd_alpha_small/mag
+timestamp 1654634570
+transform 1 0 4815 0 1 345
+box 0 0 324 756
+use font_61  font_61_0 $PDKPATH/libs.ref/gf180mcu_ocd_alpha_small/mag
+timestamp 1654634570
+transform 1 0 1385 0 1 350
+box 0 0 324 540
+use font_65  font_65_0 $PDKPATH/libs.ref/gf180mcu_ocd_alpha_small/mag
+timestamp 1654634570
+transform 1 0 5870 0 1 345
+box 0 0 324 540
+use font_67  font_67_0 $PDKPATH/libs.ref/gf180mcu_ocd_alpha_small/mag
+timestamp 1654634570
+transform 1 0 3560 0 1 345
+box 0 -216 324 540
+use font_68  font_68_0 $PDKPATH/libs.ref/gf180mcu_ocd_alpha_small/mag
+timestamp 1654634570
+transform 1 0 5340 0 1 345
+box 0 0 324 756
+use font_69  font_69_0 $PDKPATH/libs.ref/gf180mcu_ocd_alpha_small/mag
+timestamp 1654634570
+transform 1 0 1915 0 1 350
+box 0 0 216 756
+use font_69  font_69_1
+timestamp 1654634570
+transform 1 0 2665 0 1 345
+box 0 0 216 756
+use font_73  font_73_0 $PDKPATH/libs.ref/gf180mcu_ocd_alpha_small/mag
+timestamp 1654634570
+transform 1 0 8340 0 1 345
+box 0 0 324 540
+<< end >>

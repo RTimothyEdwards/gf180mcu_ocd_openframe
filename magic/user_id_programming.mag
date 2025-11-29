@@ -1,0 +1,848 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1764210621
+<< metal1 >>
+rect 1484 1128 1559 1452
+rect 1822 1379 1947 1462
+rect 1872 1286 1947 1379
+rect 2828 1128 2903 1452
+rect 3166 1379 3291 1462
+rect 3216 1286 3291 1379
+rect 3948 1128 4023 1452
+rect 4286 1379 4411 1462
+rect 4336 1286 4411 1379
+rect 5292 1128 5367 1452
+rect 5630 1379 5755 1462
+rect 5680 1286 5755 1379
+rect 6412 1128 6487 1452
+rect 6750 1379 6875 1462
+rect 6800 1286 6875 1379
+rect 7756 1128 7831 1452
+rect 8094 1379 8219 1462
+rect 8144 1286 8219 1379
+rect 8876 1128 8951 1452
+rect 9214 1379 9339 1462
+rect 9264 1286 9339 1379
+rect 10220 1128 10295 1452
+rect 10558 1379 10683 1462
+rect 10608 1286 10683 1379
+rect 11340 1128 11415 1452
+rect 11678 1379 11803 1462
+rect 11728 1286 11803 1379
+rect 12684 1128 12759 1452
+rect 13022 1379 13147 1462
+rect 13072 1286 13147 1379
+rect 13804 1128 13879 1452
+rect 14142 1379 14267 1462
+rect 14192 1286 14267 1379
+rect 15148 1128 15223 1452
+rect 15486 1379 15611 1462
+rect 15536 1286 15611 1379
+rect 16268 1128 16343 1452
+rect 16606 1379 16731 1462
+rect 16656 1286 16731 1379
+rect 17612 1128 17687 1452
+rect 17950 1379 18075 1462
+rect 18000 1286 18075 1379
+rect 18732 1128 18807 1452
+rect 19070 1379 19195 1462
+rect 19120 1286 19195 1379
+rect 20076 1128 20151 1452
+rect 20414 1379 20539 1462
+rect 20464 1286 20539 1379
+rect 1364 1056 1559 1128
+rect 2708 1056 2903 1128
+rect 3828 1056 4023 1128
+rect 5172 1056 5367 1128
+rect 6292 1056 6487 1128
+rect 7636 1056 7831 1128
+rect 8756 1056 8951 1128
+rect 10100 1056 10295 1128
+rect 11220 1056 11415 1128
+rect 12564 1056 12759 1128
+rect 13684 1056 13879 1128
+rect 15028 1056 15223 1128
+rect 16148 1056 16343 1128
+rect 17492 1056 17687 1128
+rect 18612 1056 18807 1128
+rect 19956 1056 20151 1128
+rect 1364 440 1559 512
+rect 2708 440 2903 512
+rect 3828 440 4023 512
+rect 5172 440 5367 512
+rect 6292 440 6487 512
+rect 7636 440 7831 512
+rect 8756 440 8951 512
+rect 10100 440 10295 512
+rect 11220 440 11415 512
+rect 12564 440 12759 512
+rect 13684 440 13879 512
+rect 15028 440 15223 512
+rect 16148 440 16343 512
+rect 17492 440 17687 512
+rect 18612 440 18807 512
+rect 19956 440 20151 512
+rect 1484 106 1559 440
+rect 1872 190 1947 440
+rect 1822 107 1947 190
+rect 2828 107 2903 440
+rect 3216 190 3291 440
+rect 3166 107 3291 190
+rect 3948 107 4023 440
+rect 4336 190 4411 440
+rect 4286 107 4411 190
+rect 5292 107 5367 440
+rect 5680 190 5755 440
+rect 5630 107 5755 190
+rect 6412 107 6487 440
+rect 6800 190 6875 440
+rect 6750 107 6875 190
+rect 7756 107 7831 440
+rect 8144 190 8219 440
+rect 8094 107 8219 190
+rect 8876 107 8951 440
+rect 9264 190 9339 440
+rect 9214 107 9339 190
+rect 10220 107 10295 440
+rect 10608 190 10683 440
+rect 10558 107 10683 190
+rect 11340 107 11415 440
+rect 11728 190 11803 440
+rect 11678 107 11803 190
+rect 12684 107 12759 440
+rect 13072 190 13147 440
+rect 13022 107 13147 190
+rect 13804 107 13879 440
+rect 14192 190 14267 440
+rect 14142 107 14267 190
+rect 15148 107 15223 440
+rect 15536 190 15611 440
+rect 15486 107 15611 190
+rect 16268 107 16343 440
+rect 16656 182 16731 440
+rect 16577 107 16731 182
+rect 17612 107 17687 440
+rect 18000 182 18075 440
+rect 17916 107 18075 182
+rect 18732 107 18807 440
+rect 19120 182 19195 440
+rect 19053 107 19195 182
+rect 20076 107 20151 440
+rect 20464 190 20539 440
+rect 20414 107 20539 190
+rect 1716 57 1773 60
+rect 2004 -57 2009 42
+rect 1716 -60 2009 -57
+<< via1 >>
+rect 1714 1510 2007 1624
+rect 10774 1510 11067 1624
+rect 19694 1510 19987 1624
+rect 6216 724 6506 844
+rect 15216 724 15506 844
+rect 1716 42 1773 57
+rect 1716 -57 2004 42
+rect 10776 -57 11064 42
+rect 19696 -57 19984 42
+<< metal2 >>
+rect 1701 1714 2021 1725
+rect 1701 1507 1714 1714
+rect 1703 1503 1714 1507
+rect 2007 1503 2021 1714
+rect 10763 1714 11081 1725
+rect 10763 1628 10774 1714
+rect 10761 1507 10774 1628
+rect 1703 1487 2021 1503
+rect 10763 1422 10774 1507
+rect 11067 1422 11081 1714
+rect 19683 1714 20001 1725
+rect 19683 1628 19694 1714
+rect 19681 1507 19694 1628
+rect 10763 1411 11081 1422
+rect 19683 1422 19694 1507
+rect 19987 1422 20001 1714
+rect 10763 1405 11021 1411
+rect 19683 1405 20001 1422
+rect 1058 1336 1960 1400
+rect 2345 1336 3304 1400
+rect 3370 1336 4424 1400
+rect 4747 1336 5768 1400
+rect 6074 1336 6888 1400
+rect 6972 1336 8232 1400
+rect 8428 1336 9354 1400
+rect 9772 1336 10694 1400
+rect 11228 1336 11814 1400
+rect 12572 1336 13158 1400
+rect 13632 1336 14278 1400
+rect 14985 1336 15620 1400
+rect 16134 1336 16746 1400
+rect 17453 1336 18092 1400
+rect 18555 1336 19201 1400
+rect 20065 1336 20547 1400
+rect 1058 558 1114 1336
+rect 28 502 1114 558
+rect 28 -420 84 502
+rect 700 358 1960 422
+rect 700 -420 756 358
+rect 2345 178 2401 1336
+rect 1484 122 2401 178
+rect 2549 358 3304 422
+rect 1484 -420 1540 122
+rect 1703 57 2020 60
+rect 1703 -57 1716 57
+rect 1773 42 2020 57
+rect 2004 -57 2020 42
+rect 2549 38 2605 358
+rect 3370 48 3426 1336
+rect 1703 -144 1726 -57
+rect 2000 -144 2020 -57
+rect 1703 -163 2020 -144
+rect 2156 -18 2605 38
+rect 2828 -8 3426 48
+rect 3500 358 4424 422
+rect 2156 -420 2212 -18
+rect 2828 -420 2884 -8
+rect 3500 -420 3556 358
+rect 4747 99 4803 1336
+rect 4172 42 4803 99
+rect 4956 358 5768 422
+rect 4172 -420 4228 42
+rect 4956 -420 5012 358
+rect 6074 89 6130 1336
+rect 6203 942 6520 957
+rect 6203 652 6216 942
+rect 6506 652 6520 942
+rect 6203 637 6520 652
+rect 5628 33 6130 89
+rect 6300 358 6888 422
+rect 5628 -420 5684 33
+rect 6300 -420 6356 358
+rect 6972 -420 7028 1336
+rect 7742 358 8232 422
+rect 7756 -420 7812 358
+rect 8428 -420 8484 1336
+rect 8861 358 9360 422
+rect 9100 -420 9156 358
+rect 9772 -420 9828 1336
+rect 11228 606 11284 1336
+rect 12572 632 12628 1336
+rect 11197 545 11284 606
+rect 12561 572 12628 632
+rect 10198 358 10695 422
+rect 10444 -420 10500 358
+rect 11197 79 11253 545
+rect 11322 358 11956 422
+rect 10763 42 11080 60
+rect 10763 -57 10776 42
+rect 11064 -57 11080 42
+rect 11197 23 11284 79
+rect 10763 -144 10786 -57
+rect 11060 -144 11080 -57
+rect 10763 -163 11080 -144
+rect 11228 -420 11284 23
+rect 11900 -420 11956 358
+rect 12561 15 12617 572
+rect 12675 358 13300 422
+rect 12561 -42 12628 15
+rect 12572 -420 12628 -42
+rect 13244 -420 13300 358
+rect 13632 39 13688 1336
+rect 13783 358 14756 422
+rect 13632 -17 14084 39
+rect 14028 -420 14084 -17
+rect 14700 -420 14756 358
+rect 14985 71 15041 1336
+rect 15203 942 15520 957
+rect 15203 652 15216 942
+rect 15506 652 15520 942
+rect 15203 637 15520 652
+rect 15124 358 16070 422
+rect 14985 15 15428 71
+rect 15372 -420 15428 15
+rect 16014 -10 16070 358
+rect 16134 92 16190 1336
+rect 16250 358 17201 422
+rect 16134 35 16772 92
+rect 16014 -70 16100 -10
+rect 16044 -420 16100 -70
+rect 16716 -420 16772 35
+rect 17145 -8 17201 358
+rect 17453 123 17509 1336
+rect 17593 358 18407 422
+rect 18351 138 18407 358
+rect 18555 281 18611 1336
+rect 20251 1232 20307 1336
+rect 19927 1176 20307 1232
+rect 18699 358 19799 422
+rect 18555 225 19572 281
+rect 17453 67 18228 123
+rect 18351 82 18900 138
+rect 17145 -69 17556 -8
+rect 17500 -420 17556 -69
+rect 18172 -420 18228 67
+rect 18844 -420 18900 82
+rect 19516 -420 19572 225
+rect 19743 179 19799 358
+rect 19927 294 19983 1176
+rect 20053 358 21700 422
+rect 19927 238 21028 294
+rect 19743 123 20356 179
+rect 19683 42 20000 60
+rect 19683 -57 19696 42
+rect 19984 -57 20000 42
+rect 19683 -144 19706 -57
+rect 19980 -144 20000 -57
+rect 19683 -163 20000 -144
+rect 20300 -420 20356 123
+rect 20972 -420 21028 238
+rect 21644 -420 21700 358
+<< via2 >>
+rect 1714 1624 2007 1714
+rect 1714 1510 2007 1624
+rect 1714 1503 2007 1510
+rect 10774 1624 11067 1714
+rect 10774 1510 11067 1624
+rect 10774 1422 11067 1510
+rect 19694 1624 19987 1714
+rect 19694 1510 19987 1624
+rect 19694 1422 19987 1510
+rect 1726 -57 2000 42
+rect 1726 -144 2000 -57
+rect 6216 844 6506 942
+rect 6216 724 6506 844
+rect 6216 652 6506 724
+rect 10786 -57 11060 42
+rect 10786 -144 11060 -57
+rect 15216 844 15506 942
+rect 15216 724 15506 844
+rect 15216 652 15506 724
+rect 19706 -57 19980 42
+rect 19706 -144 19980 -57
+<< metal3 >>
+rect 1697 1714 2027 1732
+rect 1697 1503 1714 1714
+rect 2007 1503 2027 1714
+rect 1697 42 2027 1503
+rect 1697 -144 1726 42
+rect 2000 -144 2027 42
+rect 1697 -168 2027 -144
+rect 6197 942 6527 1732
+rect 6197 652 6216 942
+rect 6506 652 6527 942
+rect 6197 -168 6527 652
+rect 10757 1714 11087 1732
+rect 10757 1422 10774 1714
+rect 11067 1422 11087 1714
+rect 10757 42 11087 1422
+rect 10757 -144 10786 42
+rect 11060 -144 11087 42
+rect 10757 -168 11087 -144
+rect 15197 942 15527 1732
+rect 15197 652 15216 942
+rect 15506 652 15527 942
+rect 15197 -168 15527 652
+rect 19677 1714 20007 1732
+rect 19677 1422 19694 1714
+rect 19987 1422 20007 1714
+rect 19677 42 20007 1422
+rect 19677 -144 19706 42
+rect 19980 -144 20007 42
+rect 19677 -168 20007 -144
+use gf180mcu_as_sc_mcu7t3v3__tap_2  ENDCAP_0 $PDKPATH/libs.ref/gf180mcu_as_sc_mcu7t3v3/mag
+timestamp 1759751540
+transform 1 0 896 0 -1 1568
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__tap_2  ENDCAP_1
+timestamp 1759751540
+transform 1 0 20608 0 -1 1568
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__tap_2  ENDCAP_2
+timestamp 1759751540
+transform 1 0 20608 0 1 0
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__tap_2  ENDCAP_3
+timestamp 1759751540
+transform 1 0 896 0 1 0
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_0 $PDKPATH/libs.ref/gf180mcu_as_sc_mcu7t3v3/mag
+timestamp 1751532246
+transform 1 0 14336 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_1
+timestamp 1751532246
+transform 1 0 11872 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_2
+timestamp 1751532246
+transform 1 0 16800 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_3
+timestamp 1751532246
+transform 1 0 9408 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_4
+timestamp 1751532246
+transform 1 0 19264 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_5
+timestamp 1751532246
+transform 1 0 6944 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_6
+timestamp 1751532246
+transform 1 0 2016 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_7
+timestamp 1751532246
+transform 1 0 4480 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_8
+timestamp 1751532246
+transform 1 0 448 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_9
+timestamp 1751532246
+transform 1 0 448 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_10
+timestamp 1751532246
+transform 1 0 4480 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_11
+timestamp 1751532246
+transform 1 0 6944 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_12
+timestamp 1751532246
+transform 1 0 9408 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_13
+timestamp 1751532246
+transform 1 0 11872 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_14
+timestamp 1751532246
+transform 1 0 14336 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_15
+timestamp 1751532246
+transform 1 0 16800 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_16
+timestamp 1751532246
+transform 1 0 19264 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_17
+timestamp 1751532246
+transform 1 0 2016 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_18
+timestamp 1751532246
+transform 1 0 0 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_19
+timestamp 1751532246
+transform 1 0 0 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_20
+timestamp 1751532246
+transform 1 0 21280 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_21
+timestamp 1751532246
+transform 1 0 21280 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_22
+timestamp 1751532246
+transform 1 0 20832 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__decap_4  FILLCAP_4_23
+timestamp 1751532246
+transform 1 0 20832 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tap_2  FILLTIE_0
+timestamp 1759751540
+transform 1 0 13216 0 1 0
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__tap_2  FILLTIE_1
+timestamp 1759751540
+transform 1 0 15680 0 1 0
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__tap_2  FILLTIE_2
+timestamp 1759751540
+transform 1 0 18144 0 1 0
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__tap_2  FILLTIE_4
+timestamp 1759751540
+transform 1 0 10752 0 1 0
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__tap_2  FILLTIE_5
+timestamp 1759751540
+transform 1 0 8288 0 1 0
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__tap_2  FILLTIE_6
+timestamp 1759751540
+transform 1 0 5824 0 1 0
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__tap_2  FILLTIE_7
+timestamp 1759751540
+transform 1 0 3360 0 1 0
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__tap_2  FILLTIE_8
+timestamp 1759751540
+transform 1 0 3360 0 -1 1568
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__tap_2  FILLTIE_9
+timestamp 1759751540
+transform 1 0 5824 0 -1 1568
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__tap_2  FILLTIE_10
+timestamp 1759751540
+transform 1 0 8288 0 -1 1568
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__tap_2  FILLTIE_11
+timestamp 1759751540
+transform 1 0 10752 0 -1 1568
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__tap_2  FILLTIE_12
+timestamp 1759751540
+transform 1 0 13216 0 -1 1568
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__tap_2  FILLTIE_13
+timestamp 1759751540
+transform 1 0 15680 0 -1 1568
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__tap_2  FILLTIE_14
+timestamp 1759751540
+transform 1 0 18144 0 -1 1568
+box -86 -86 310 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[0] $PDKPATH/libs.ref/gf180mcu_as_sc_mcu7t3v3/mag
+timestamp 1751532550
+transform 1 0 1120 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[1]
+timestamp 1751532550
+transform 1 0 1120 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[2]
+timestamp 1751532550
+transform 1 0 2464 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[3]
+timestamp 1751532550
+transform 1 0 2464 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[4]
+timestamp 1751532550
+transform 1 0 3584 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[5]
+timestamp 1751532550
+transform 1 0 3584 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[6]
+timestamp 1751532550
+transform 1 0 4928 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[7]
+timestamp 1751532550
+transform 1 0 4928 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[8]
+timestamp 1751532550
+transform 1 0 6048 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[9]
+timestamp 1751532550
+transform 1 0 6048 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[10]
+timestamp 1751532550
+transform 1 0 7392 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[11]
+timestamp 1751532550
+transform 1 0 7392 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[12]
+timestamp 1751532550
+transform 1 0 8512 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[13]
+timestamp 1751532550
+transform 1 0 8512 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[14]
+timestamp 1751532550
+transform 1 0 9856 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[15]
+timestamp 1751532550
+transform 1 0 9856 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[16]
+timestamp 1751532550
+transform 1 0 10976 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[17]
+timestamp 1751532550
+transform 1 0 10976 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[18]
+timestamp 1751532550
+transform 1 0 12320 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[19]
+timestamp 1751532550
+transform 1 0 12320 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[20]
+timestamp 1751532550
+transform 1 0 13440 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[21]
+timestamp 1751532550
+transform 1 0 13440 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[22]
+timestamp 1751532550
+transform 1 0 14784 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[23]
+timestamp 1751532550
+transform 1 0 14784 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[24]
+timestamp 1751532550
+transform 1 0 15904 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[25]
+timestamp 1751532550
+transform 1 0 15904 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[26]
+timestamp 1751532550
+transform 1 0 17248 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[27]
+timestamp 1751532550
+transform 1 0 17248 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[28]
+timestamp 1751532550
+transform 1 0 18368 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[29]
+timestamp 1751532550
+transform 1 0 18368 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[30]
+timestamp 1751532550
+transform 1 0 19712 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tieh_4  mask_rev_value_one[31]
+timestamp 1751532550
+transform 1 0 19712 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[0] $PDKPATH/libs.ref/gf180mcu_as_sc_mcu7t3v3/mag
+timestamp 1751532612
+transform 1 0 1568 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[1]
+timestamp 1751532612
+transform 1 0 1568 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[2]
+timestamp 1751532612
+transform 1 0 2912 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[3]
+timestamp 1751532612
+transform 1 0 2912 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[4]
+timestamp 1751532612
+transform 1 0 4032 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[5]
+timestamp 1751532612
+transform 1 0 4032 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[6]
+timestamp 1751532612
+transform 1 0 5376 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[7]
+timestamp 1751532612
+transform 1 0 5376 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[8]
+timestamp 1751532612
+transform 1 0 6496 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[9]
+timestamp 1751532612
+transform 1 0 6496 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[10]
+timestamp 1751532612
+transform 1 0 7840 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[11]
+timestamp 1751532612
+transform 1 0 7840 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[12]
+timestamp 1751532612
+transform 1 0 8960 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[13]
+timestamp 1751532612
+transform 1 0 8960 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[14]
+timestamp 1751532612
+transform 1 0 10304 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[15]
+timestamp 1751532612
+transform 1 0 10304 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[16]
+timestamp 1751532612
+transform 1 0 11424 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[17]
+timestamp 1751532612
+transform 1 0 11424 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[18]
+timestamp 1751532612
+transform 1 0 12768 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[19]
+timestamp 1751532612
+transform 1 0 12768 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[20]
+timestamp 1751532612
+transform 1 0 13888 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[21]
+timestamp 1751532612
+transform 1 0 13888 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[22]
+timestamp 1751532612
+transform 1 0 15232 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[23]
+timestamp 1751532612
+transform 1 0 15232 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[24]
+timestamp 1751532612
+transform 1 0 16352 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[25]
+timestamp 1751532612
+transform 1 0 16352 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[26]
+timestamp 1751532612
+transform 1 0 17696 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[27]
+timestamp 1751532612
+transform 1 0 17696 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[28]
+timestamp 1751532612
+transform 1 0 18816 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[29]
+timestamp 1751532612
+transform 1 0 18816 0 1 0
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[30]
+timestamp 1751532612
+transform 1 0 20160 0 -1 1568
+box -86 -86 534 870
+use gf180mcu_as_sc_mcu7t3v3__tiel_4  mask_rev_value_zero[31]
+timestamp 1751532612
+transform 1 0 20160 0 1 0
+box -86 -86 534 870
+use user_id_vias  user_id_vias_0
+timestamp 1764210621
+transform 1 0 1491 0 1 360
+box 376 -12 19052 1050
+<< labels >>
+flabel metal3 6197 -168 6527 162 0 FreeSans 1600 0 0 0 VDD
+port 32 nsew
+flabel metal2 28 -420 84 -10 0 FreeSans 400 90 0 0 mask_rev[0]
+port 0 nsew
+flabel metal2 700 -420 756 -10 0 FreeSans 400 90 0 0 mask_rev[1]
+port 11 nsew
+flabel metal2 1484 -420 1540 -10 0 FreeSans 400 90 0 0 mask_rev[2]
+port 22 nsew
+flabel metal2 2156 -420 2212 -10 0 FreeSans 400 90 0 0 mask_rev[3]
+port 25 nsew
+flabel metal2 2828 -420 2884 -10 0 FreeSans 400 90 0 0 mask_rev[4]
+port 26 nsew
+flabel metal2 3500 -420 3556 -10 0 FreeSans 400 90 0 0 mask_rev[5]
+port 27 nsew
+flabel metal2 4172 -420 4228 -10 0 FreeSans 400 90 0 0 mask_rev[6]
+port 28 nsew
+flabel metal2 4956 -420 5012 -10 0 FreeSans 400 90 0 0 mask_rev[7]
+port 29 nsew
+flabel metal2 5628 -420 5684 -10 0 FreeSans 400 90 0 0 mask_rev[8]
+port 30 nsew
+flabel metal2 6300 -420 6356 -10 0 FreeSans 400 90 0 0 mask_rev[9]
+port 31 nsew
+flabel metal2 6972 -420 7028 -10 0 FreeSans 400 90 0 0 mask_rev[10]
+port 1 nsew
+flabel metal2 7756 -420 7812 -10 0 FreeSans 400 90 0 0 mask_rev[11]
+port 2 nsew
+flabel metal2 8428 -420 8484 -10 0 FreeSans 400 90 0 0 mask_rev[12]
+port 3 nsew
+flabel metal2 9100 -420 9156 -10 0 FreeSans 400 90 0 0 mask_rev[13]
+port 4 nsew
+flabel metal2 9772 -420 9828 -10 0 FreeSans 400 90 0 0 mask_rev[14]
+port 5 nsew
+flabel metal2 10444 -420 10500 -10 0 FreeSans 400 90 0 0 mask_rev[15]
+port 6 nsew
+flabel metal2 11228 -420 11284 -10 0 FreeSans 400 90 0 0 mask_rev[16]
+port 7 nsew
+flabel metal2 11900 -420 11956 -10 0 FreeSans 400 90 0 0 mask_rev[17]
+port 8 nsew
+flabel metal2 12572 -420 12628 -10 0 FreeSans 400 90 0 0 mask_rev[18]
+port 9 nsew
+flabel metal2 13244 -420 13300 -10 0 FreeSans 400 90 0 0 mask_rev[19]
+port 10 nsew
+flabel metal2 14028 -420 14084 -10 0 FreeSans 400 90 0 0 mask_rev[20]
+port 12 nsew
+flabel metal2 14700 -420 14756 -10 0 FreeSans 400 90 0 0 mask_rev[21]
+port 13 nsew
+flabel metal2 15372 -420 15428 -10 0 FreeSans 400 90 0 0 mask_rev[22]
+port 14 nsew
+flabel metal2 16044 -420 16100 -10 0 FreeSans 400 90 0 0 mask_rev[23]
+port 15 nsew
+flabel metal2 16716 -420 16772 -10 0 FreeSans 400 90 0 0 mask_rev[24]
+port 16 nsew
+flabel metal2 17500 -420 17556 -10 0 FreeSans 400 90 0 0 mask_rev[25]
+port 17 nsew
+flabel metal2 18172 -420 18228 -10 0 FreeSans 400 90 0 0 mask_rev[26]
+port 18 nsew
+flabel metal2 18844 -420 18900 -10 0 FreeSans 400 90 0 0 mask_rev[27]
+port 19 nsew
+flabel metal2 19516 -420 19572 -10 0 FreeSans 400 90 0 0 mask_rev[28]
+port 20 nsew
+flabel metal2 20300 -420 20356 -10 0 FreeSans 400 90 0 0 mask_rev[29]
+port 21 nsew
+flabel metal2 20972 -420 21028 -10 0 FreeSans 400 90 0 0 mask_rev[30]
+port 23 nsew
+flabel metal2 21644 -420 21700 -10 0 FreeSans 400 90 0 0 mask_rev[31]
+port 24 nsew
+flabel metal3 10757 51 11087 1414 0 FreeSans 1600 0 0 0 VSS
+port 33 nsew
+<< end >>
