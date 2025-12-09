@@ -1,0 +1,11 @@
+Building the openframe project wrapper:
+
+	export PDK_ROOT=/usr/share/pdk	(or ~/.ciel or whatever)
+
+	librelane config.yaml --manual-pdk --pdk gf180mcuD --pdk-root ${PDK_ROOT}
+
+NOTE:  The run results are *not* pushed back to the git
+repository, because the size of everything in the directories
+is huge.  The project final output was copied into the ../gds/
+directory, and the project can be recreated on demand from the
+existing configuration files.

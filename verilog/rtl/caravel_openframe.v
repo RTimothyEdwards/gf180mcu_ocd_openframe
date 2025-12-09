@@ -64,7 +64,6 @@
 /*                                                              */
 /*--------------------------------------------------------------*/
 
-
 // `default_nettype none
 
 module caravel_openframe (
@@ -83,7 +82,7 @@ module caravel_openframe (
 	//------------------------------------------------------------
 	// This value is uniquely defined for each user project.
 	//------------------------------------------------------------
-	parameter USER_PROJECT_ID = 32'h00000000;
+	parameter USER_PROJECT_ID = 32'h12092025;
 
 	// Project Control (pad-facing)
 	wire [`OPENFRAME_IO_PADS-1:0] gpio_ie;		// input enable
@@ -161,7 +160,7 @@ module caravel_openframe (
 	/* Wrapper module around the user project	*/
 	/*----------------------------------------------*/
 
-	openframe_project_wrapper user_project (
+	openframe_project_wrapper project_wrapper (
 		`ifdef USE_POWER_PINS
 			// Power buses
 			.vddio(vddio),	// Core 5.0V supply
@@ -194,9 +193,6 @@ module caravel_openframe (
 	/*--------------------------------------*/
 	/* End user project instantiation	*/
 	/*--------------------------------------*/
-
-
-
 
 endmodule
 // `default_nettype wire

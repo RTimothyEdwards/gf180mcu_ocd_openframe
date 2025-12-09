@@ -1,0 +1,152 @@
+* NGSPICE file created from ring_osc2x13.ext - technology: gf180mcuD
+
+.subckt gf180mcu_as_sc_mcu7t3v3__fillcap_8 VDD VNW VPW VSS
+X0 a_126_406# a_28_498# VSS VPW nfet_03v3 ad=0.4356p pd=2.86u as=0.4851p ps=2.96u w=0.99u l=3.27u
+X1 VDD a_126_406# a_28_498# VNW pfet_03v3 ad=0.4796p pd=3.06u as=0.5341p ps=3.16u w=1.09u l=3.27u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__fillcap_4 VDD VNW VPW VSS
+X0 a_126_408# a_28_500# VSS VPW nfet_03v3 ad=0.44p pd=2.88u as=0.49p ps=2.98u w=1u l=1.03u
+X1 VDD a_126_408# a_28_500# VNW pfet_03v3 ad=0.4752p pd=3.04u as=0.5292p ps=3.14u w=1.08u l=1.03u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__inv_2 VDD VNW VPW VSS Y A
+X0 VDD A Y VNW pfet_03v3 ad=0.6072p pd=3.64u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X1 Y A VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.44p ps=2.88u w=1u l=0.28u
+X2 Y A VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X3 VSS A Y VPW nfet_03v3 ad=0.44p pd=2.88u as=0.26p ps=1.52u w=1u l=0.28u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__diode_2 VDD VNW VPW VSS DIODE
+D0 DIODE VNW diode_pd2nw_03v3 pj=1.93u area=0.2295p
+D1 VPW DIODE diode_nd2ps_03v3 pj=1.83u area=0.209p
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__invz_2 VDD VNW VPW VSS EN A Y
+X0 VDD a_428_440# Y VNW pfet_03v3 ad=0.6693p pd=2.35u as=0.4623p ps=2.05u w=1.38u l=0.28u
+X1 a_428_440# EN VDD VNW pfet_03v3 ad=0.3864p pd=1.94u as=0.69p ps=2.38u w=1.38u l=0.28u
+X2 a_848_348# A VSS VPW nfet_03v3 ad=0.52p pd=3.04u as=0.36p ps=1.72u w=1u l=0.28u
+X3 VSS EN a_28_68# VPW nfet_03v3 ad=0.26p pd=1.52u as=0.44p ps=2.88u w=1u l=0.28u
+X4 Y a_332_68# VSS VPW nfet_03v3 ad=0.61p pd=2.22u as=0.27p ps=1.54u w=1u l=0.28u
+X5 Y a_428_440# VDD VNW pfet_03v3 ad=0.4623p pd=2.05u as=0.6348p ps=2.3u w=1.38u l=0.28u
+X6 a_848_348# A VDD VNW pfet_03v3 ad=0.7176p pd=3.8u as=0.6693p ps=2.35u w=1.38u l=0.28u
+X7 VSS a_332_68# Y VPW nfet_03v3 ad=0.36p pd=1.72u as=0.61p ps=2.22u w=1u l=0.28u
+X8 a_428_440# EN a_332_68# VPW nfet_03v3 ad=1.52p pd=5.04u as=0.26p ps=1.52u w=1u l=0.28u
+X9 VSS a_848_348# a_332_68# VPW nfet_03v3 ad=0.27p pd=1.54u as=0.44p ps=2.88u w=1u l=0.28u
+X10 a_332_68# a_28_68# a_428_440# VNW pfet_03v3 ad=0.6072p pd=3.64u as=0.3864p ps=1.94u w=1.38u l=0.28u
+X11 VDD EN a_28_68# VNW pfet_03v3 ad=0.69p pd=2.38u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X12 VDD a_848_348# a_428_440# VNW pfet_03v3 ad=0.6348p pd=2.3u as=1.2351p ps=4.55u w=1.38u l=0.28u
+X13 a_332_68# a_28_68# VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__clkbuff_4 VDD VNW VPW VSS A Y
+X0 Y a_28_68# VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X1 VDD a_28_68# Y VNW pfet_03v3 ad=1.1592p pd=4.44u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X2 VSS A a_28_68# VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.3168p ps=2.32u w=0.72u l=0.28u
+X3 VSS a_28_68# Y VPW nfet_03v3 ad=0.6048p pd=3.12u as=0.1872p ps=1.24u w=0.72u l=0.28u
+X4 VDD a_28_68# Y VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X5 Y a_28_68# VSS VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.1872p ps=1.24u w=0.72u l=0.28u
+X6 Y a_28_68# VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X7 VSS a_28_68# Y VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.1872p ps=1.24u w=0.72u l=0.28u
+X8 VDD A a_28_68# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X9 Y a_28_68# VSS VPW nfet_03v3 ad=0.1872p pd=1.24u as=0.1872p ps=1.24u w=0.72u l=0.28u
+.ends
+
+.subckt delay_stage in trim[0] trim[1] out vss vdd
+Xgf180mcu_as_sc_mcu7t3v3__fillcap_4_0 vdd vdd vss vss gf180mcu_as_sc_mcu7t3v3__fillcap_4
+Xgf180mcu_as_sc_mcu7t3v3__fillcap_4_1 vdd vdd vss vss gf180mcu_as_sc_mcu7t3v3__fillcap_4
+Xtrim0bar vdd vdd vss vss trim0bar/Y trim[0] gf180mcu_as_sc_mcu7t3v3__inv_2
+Xgf180mcu_as_sc_mcu7t3v3__fillcap_4_2 vdd vdd vss vss gf180mcu_as_sc_mcu7t3v3__fillcap_4
+Xgf180mcu_as_sc_mcu7t3v3__fillcap_4_3 vdd vdd vss vss gf180mcu_as_sc_mcu7t3v3__fillcap_4
+Xgf180mcu_as_sc_mcu7t3v3__diode_2_0 vdd vdd vss vss trim[0] gf180mcu_as_sc_mcu7t3v3__diode_2
+Xgf180mcu_as_sc_mcu7t3v3__diode_2_1 vdd vdd vss vss trim[1] gf180mcu_as_sc_mcu7t3v3__diode_2
+Xdelayint0 vdd vdd vss vss d2 d1 gf180mcu_as_sc_mcu7t3v3__inv_2
+Xdelayen0 vdd vdd vss vss trim[0] d2 out gf180mcu_as_sc_mcu7t3v3__invz_2
+Xdelayen1 vdd vdd vss vss trim[1] d0 d1 gf180mcu_as_sc_mcu7t3v3__invz_2
+Xtrim1bar vdd vdd vss vss trim1bar/Y trim[1] gf180mcu_as_sc_mcu7t3v3__inv_2
+Xdelayenb1 vdd vdd vss vss trim1bar/Y ts d1 gf180mcu_as_sc_mcu7t3v3__invz_2
+Xdelaybuf0 vdd vdd vss vss in ts gf180mcu_as_sc_mcu7t3v3__clkbuff_4
+Xdelaybuf1 vdd vdd vss vss ts d0 gf180mcu_as_sc_mcu7t3v3__clkbuff_4
+Xdelanenb0 vdd vdd vss vss trim0bar/Y ts out gf180mcu_as_sc_mcu7t3v3__invz_2
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__inv_6 VDD VNW VPW VSS Y A
+X0 VSS A Y VPW nfet_03v3 ad=0.6p pd=3.2u as=0.26p ps=1.52u w=1u l=0.28u
+X1 VDD A Y VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X2 Y A VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X3 Y A VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.44p ps=2.88u w=1u l=0.28u
+X4 Y A VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+X5 Y A VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X6 VDD A Y VNW pfet_03v3 ad=0.828p pd=3.96u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X7 VSS A Y VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+X8 VDD A Y VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X9 Y A VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+X10 Y A VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X11 VSS A Y VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__tieh_4 VDD VNW VPW VSS ONE
+X0 a_112_319# a_112_319# VSS VPW nfet_03v3 ad=0.44p pd=2.88u as=0.44p ps=2.88u w=1u l=0.28u
+X1 ONE a_112_319# VDD VNW pfet_03v3 ad=0.6072p pd=3.64u as=0.6072p ps=3.64u w=1.38u l=0.28u
+.ends
+
+.subckt gf180mcu_as_sc_mcu7t3v3__nor2_2 VDD VNW VPW VSS Y B A
+X0 a_28_440# A VDD VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X1 Y A VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.44p ps=2.88u w=1u l=0.28u
+X2 Y B a_28_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X3 VSS B Y VPW nfet_03v3 ad=0.515p pd=3.03u as=0.26p ps=1.52u w=1u l=0.28u
+X4 a_28_440# B Y VNW pfet_03v3 ad=0.7176p pd=3.8u as=0.3588p ps=1.9u w=1.38u l=0.28u
+X5 Y B VSS VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+X6 VDD A a_28_440# VNW pfet_03v3 ad=0.3588p pd=1.9u as=0.6072p ps=3.64u w=1.38u l=0.28u
+X7 VSS A Y VPW nfet_03v3 ad=0.26p pd=1.52u as=0.26p ps=1.52u w=1u l=0.28u
+.ends
+
+.subckt start_stage in trim[0] trim[1] reset out vdd vss
+Xconst1 vdd vdd vss vss one gf180mcu_as_sc_mcu7t3v3__tieh_4
+Xgf180mcu_as_sc_mcu7t3v3__diode_2_0 vdd vdd vss vss trim[0] gf180mcu_as_sc_mcu7t3v3__diode_2
+Xgf180mcu_as_sc_mcu7t3v3__diode_2_1 vdd vdd vss vss trim[1] gf180mcu_as_sc_mcu7t3v3__diode_2
+Xdelayint0 vdd vdd vss vss d2 d1 gf180mcu_as_sc_mcu7t3v3__inv_2
+Xdelayenb0 vdd vdd vss vss ctrl0b in out gf180mcu_as_sc_mcu7t3v3__invz_2
+Xdelayen0 vdd vdd vss vss trim[0] d2 out gf180mcu_as_sc_mcu7t3v3__invz_2
+Xtrim1bar vdd vdd vss vss trim1b trim[1] gf180mcu_as_sc_mcu7t3v3__inv_2
+Xdelayen1 vdd vdd vss vss trim[1] d0 d1 gf180mcu_as_sc_mcu7t3v3__invz_2
+Xdelayenb1 vdd vdd vss vss trim1b in d1 gf180mcu_as_sc_mcu7t3v3__invz_2
+Xdelaybuf0 vdd vdd vss vss in d0 gf180mcu_as_sc_mcu7t3v3__clkbuff_4
+Xctrlen0 vdd vdd vss vss ctrl0b trim[0] reset gf180mcu_as_sc_mcu7t3v3__nor2_2
+Xreseten0 vdd vdd vss vss reset one out gf180mcu_as_sc_mcu7t3v3__invz_2
+.ends
+
+.subckt ring_osc2x13 vdd vss reset trim[0] trim[1] trim[2] trim[3] trim[4] trim[7]
++ trim[8] trim[9] trim[10] trim[11] trim[12] trim[5] trim[6] trim[25] trim[13] trim[14]
++ trim[15] trim[16] trim[17] trim[18] trim[19] trim[20] trim[21] trim[22] trim[23]
++ trim[24] clockp[1] clockp[0]
+Xgf180mcu_as_sc_mcu7t3v3__fillcap_8_0 vdd vdd vss vss gf180mcu_as_sc_mcu7t3v3__fillcap_8
+Xid_10 id_10/in trim[1] trim[14] id_8/in vss vdd delay_stage
+Xid_3 id_3/in trim[7] trim[20] id_5/in vss vdd delay_stage
+Xgf180mcu_as_sc_mcu7t3v3__fillcap_8_1 vdd vdd vss vss gf180mcu_as_sc_mcu7t3v3__fillcap_8
+Xid_11 id_9/out trim[11] trim[24] iss/in vss vdd delay_stage
+Xid_4 id_4/in trim[4] trim[17] id_2/in vss vdd delay_stage
+Xgf180mcu_as_sc_mcu7t3v3__fillcap_8_2 vdd vdd vss vss gf180mcu_as_sc_mcu7t3v3__fillcap_8
+Xid_12 d0 trim[0] trim[13] id_10/in vss vdd delay_stage
+Xid_5 id_5/in trim[8] trim[21] id_7/in vss vdd delay_stage
+Xgf180mcu_as_sc_mcu7t3v3__fillcap_8_3 vdd vdd vss vss gf180mcu_as_sc_mcu7t3v3__fillcap_8
+Xid_6 id_6/in trim[3] trim[16] id_4/in vss vdd delay_stage
+Xgf180mcu_as_sc_mcu7t3v3__fillcap_8_4 vdd vdd vss vss gf180mcu_as_sc_mcu7t3v3__fillcap_8
+Xgf180mcu_as_sc_mcu7t3v3__fillcap_8_5 vdd vdd vss vss gf180mcu_as_sc_mcu7t3v3__fillcap_8
+Xid_8 id_8/in trim[2] trim[15] id_6/in vss vdd delay_stage
+Xid_7 id_7/in trim[9] trim[22] id_9/in vss vdd delay_stage
+Xgf180mcu_as_sc_mcu7t3v3__fillcap_8_6 vdd vdd vss vss gf180mcu_as_sc_mcu7t3v3__fillcap_8
+Xid_9 id_9/in trim[10] trim[23] id_9/out vss vdd delay_stage
+Xgf180mcu_as_sc_mcu7t3v3__fillcap_8_7 vdd vdd vss vss gf180mcu_as_sc_mcu7t3v3__fillcap_8
+Xgf180mcu_as_sc_mcu7t3v3__fillcap_4_0 vdd vdd vss vss gf180mcu_as_sc_mcu7t3v3__fillcap_4
+Xgf180mcu_as_sc_mcu7t3v3__fillcap_8_8 vdd vdd vss vss gf180mcu_as_sc_mcu7t3v3__fillcap_8
+Xgf180mcu_as_sc_mcu7t3v3__diode_2_0 vdd vdd vss vss reset gf180mcu_as_sc_mcu7t3v3__diode_2
+Xibufp10 vdd vdd vss vss c1 d6 gf180mcu_as_sc_mcu7t3v3__inv_2
+Xibufp00 vdd vdd vss vss c0 d0 gf180mcu_as_sc_mcu7t3v3__inv_2
+Xibufp11 vdd vdd vss vss clockp[1] c1 gf180mcu_as_sc_mcu7t3v3__inv_6
+Xibufp01 vdd vdd vss vss clockp[0] c0 gf180mcu_as_sc_mcu7t3v3__inv_6
+Xiss iss/in trim[12] trim[25] reset d0 vdd vss start_stage
+Xid_1 d6 trim[6] trim[19] id_3/in vss vdd delay_stage
+Xid_2 id_2/in trim[5] trim[18] d6 vss vdd delay_stage
+.ends
+

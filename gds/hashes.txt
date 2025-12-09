@@ -1,0 +1,6 @@
+md5sum
+73162b69ab28ef2f533683f0ac37f8fa  caravel_openframe_filled.gds
+sha1sum
+621cfab503d665ac021f0fd98b2172abe70e0e5f  caravel_openframe_filled.gds
+sha256sum
+7fbdb6fa21dcb2456b8b829b06e6e9729b465ad60a3e13f2b56e0ddcc7ea3c93  caravel_openframe_filled.gds

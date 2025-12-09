@@ -1,10 +1,10 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1764518694
+timestamp 1765303996
 << metal2 >>
-rect 579 69305 635 70000
-rect 691 69230 747 70000
+rect 558 69305 634 70000
+rect 746 69593 822 70000
 << metal4 >>
 rect 104 69624 1916 69634
 rect 104 69568 114 69624
@@ -18093,11 +18093,11 @@ rect 1782 14192 1850 14248
 rect 1906 14192 2000 14248
 rect 0 14000 2000 14192
 use constant_block  constant_block_0
-timestamp 1764096660
+timestamp 1764982451
 transform 0 -1 1803 -1 0 69287
 box -407 -86 3996 1661
 use GF_NI_FILL10_0short  GF_NI_FILL10_0_0
-timestamp 1764518694
+timestamp 1765303996
 transform 1 0 0 0 1 0
 box -32 13097 2032 69968
 << labels >>
@@ -18197,10 +18197,10 @@ rlabel metal5 s 0 62000 2000 63400 1 VDD
 port 3 nsew power bidirectional
 rlabel metal5 s 0 49200 2000 50600 1 VSS
 port 4 nsew ground bidirectional
-flabel metal2 579 69830 635 70000 0 FreeSans 480 90 0 0 one
-port 5 nsew
-flabel metal2 691 69830 747 70000 0 FreeSans 480 90 0 0 zero
+flabel metal2 746 69700 822 70000 0 FreeSans 480 90 0 0 zero
 port 6 nsew
+flabel metal2 558 69700 634 70000 0 FreeSans 480 90 0 0 one
+port 5 nsew
 << properties >>
 string FIXED_BBOX 0 0 2000 70000
 string LEFclass PAD SPACER

@@ -1,0 +1,408 @@
+meta:
+  version: 2
+  flow: Classic
+  substituting_steps:
+    
+    # Allow assignments for por, porb
+    Checker.NetlistAssignStatements: null
+    
+    # For debugging
+    +OpenROAD.GeneratePDN: Magic.StreamOut
+    
+    # Ignore disconnected pins
+    Checker.DisconnectedPins: null
+    
+    # TODO reenable again?
+    OpenROAD.IRDropReport: null
+    
+    # Not needed
+    Magic.WriteLef: null
+    Odb.CheckDesignAntennaProperties: null
+    
+    # KLayout doesn't streamout (?)
+    KLayout.StreamOut: null
+    KLayout.XOR: null
+    
+    # Magic has no issues with DRC
+    # Magic.DRC: null
+    
+    # We run KLayout DRC manually
+    KLayout.DRC: null
+    
+    # We run LVS manually
+    Netgen.LVS: null
+    
+    # Some macros may overlap on purpose
+    Checker.IllegalOverlap: null
+
+DESIGN_NAME: openframe_project_wrapper
+VERILOG_FILES:
+- dir::../verilog/rtl/synth_defs.v
+- dir::../verilog/rtl/openframe_project_wrapper.v
+- dir::../verilog/rtl/openframe_user_project.v
+- dir::../verilog/rtl/clock_div.v
+- dir::../verilog/rtl/clock_routing.v
+- dir::../verilog/rtl/counter_timer_high.v
+- dir::../verilog/rtl/counter_timer_low.v
+- dir::../verilog/rtl/debug_regs.v
+- dir::../verilog/rtl/dll.v
+- dir::../verilog/rtl/dll_controller.v
+- dir::../verilog/rtl/gpio_vector_wb.v
+- dir::../verilog/rtl/gpio_wb.v
+- dir::../verilog/rtl/housekeeping.v
+- dir::../verilog/rtl/housekeeping_spi.v
+- dir::../verilog/rtl/intercon_wb.v
+- dir::../verilog/rtl/mem_wb.v
+- dir::../verilog/rtl/picosoc.v
+- dir::../verilog/rtl/picorv32.v
+- dir::../verilog/rtl/simple_spi_master.v
+- dir::../verilog/rtl/simpleuart.v
+- dir::../verilog/rtl/spimemio.v
+
+DEDUPLICATE_CORNERS: true
+
+# Use the Avalon Semiconductor 3.3V standard cell libraries
+STD_CELL_LIBRARY: gf180mcu_as_sc_mcu7t3v3
+STD_CELL_LIBRARY_OPT: gf180mcu_as_sc_mcu7t3v3
+
+# Technology libs
+LIB:
+  "*_tt_025C_3v30":
+    - pdk_dir::libs.ref/gf180mcu_as_sc_mcu7t3v3/lib/gf180mcu_as_sc_mcu7t3v3__tt_025C_3v30.lib
+    - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lib/gf180mcu_ocd_ip_sram__sram512x8m8wm1__tt_025C_3v30.lib
+    - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lib/gf180mcu_ocd_ip_sram__sram256x8m8wm1__tt_025C_3v30.lib
+    - dir::../ip/ring_osc2x13/lib/ring_osc2x13.lib
+
+  "*_ss_n40C_3v00":
+    - pdk_dir::libs.ref/gf180mcu_as_sc_mcu7t3v3/lib/gf180mcu_as_sc_mcu7t3v3__tt_025C_3v30.lib
+    - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lib/gf180mcu_ocd_ip_sram__sram512x8m8wm1__ss_n40C_3v00.lib
+    - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lib/gf180mcu_ocd_ip_sram__sram256x8m8wm1__ss_n40C_3v00.lib
+    - dir::../ip/ring_osc2x13/lib/ring_osc2x13.lib
+
+  "*_ss_125C_3v00":
+    - pdk_dir::libs.ref/gf180mcu_as_sc_mcu7t3v3/lib/gf180mcu_as_sc_mcu7t3v3__tt_025C_3v30.lib
+    - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lib/gf180mcu_ocd_ip_sram__sram512x8m8wm1__ss_125C_3v00.lib
+    - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lib/gf180mcu_ocd_ip_sram__sram256x8m8wm1__ss_125C_3v00.lib
+    - dir::../ip/ring_osc2x13/lib/ring_osc2x13.lib
+
+  "*_ff_n40C_3v60":
+    - pdk_dir::libs.ref/gf180mcu_as_sc_mcu7t3v3/lib/gf180mcu_as_sc_mcu7t3v3__ff_n40C_3v60.lib
+    - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lib/gf180mcu_ocd_ip_sram__sram512x8m8wm1__ff_n40C_3v60.lib
+    - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lib/gf180mcu_ocd_ip_sram__sram256x8m8wm1__ff_n40C_3v60.lib
+    - dir::../ip/ring_osc2x13/lib/ring_osc2x13.lib
+
+  "*_ff_125C_3v60":
+    - pdk_dir::libs.ref/gf180mcu_as_sc_mcu7t3v3/lib/gf180mcu_as_sc_mcu7t3v3__ff_n40C_3v60.lib
+    - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lib/gf180mcu_ocd_ip_sram__sram512x8m8wm1__ff_125C_3v60.lib
+    - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lib/gf180mcu_ocd_ip_sram__sram256x8m8wm1__ff_125C_3v60.lib
+    - dir::../ip/ring_osc2x13/lib/ring_osc2x13.lib
+
+
+# Corners
+STA_CORNERS:
+  - nom_tt_025C_3v30
+  - nom_ss_n40C_3v00
+  - nom_ss_125C_3v00
+  - nom_ff_n40C_3v60
+  - nom_ff_125C_3v60
+  - min_tt_025C_3v30
+  - min_ss_n40C_3v00
+  - min_ss_125C_3v00
+  - min_ff_n40C_3v60
+  - min_ff_125C_3v60
+  - max_tt_025C_3v30
+  - max_ss_n40C_3v00
+  - max_ss_125C_3v00
+  - max_ff_n40C_3v60
+  - max_ff_125C_3v60
+
+CTS_CLK_BUFFERS:
+  - "gf180mcu_as_sc_mcu9t3v3__clkbuff_12"
+  - "gf180mcu_as_sc_mcu9t3v3__clkbuff_8"
+  - "gf180mcu_as_sc_mcu9t3v3__clkbuff_4"
+
+DEFAULT_CORNER: nom_tt_025C_3v30
+
+# Magic streamout: don't blackbox macros
+MAGIC_MACRO_STD_CELL_SOURCE: PDK
+
+# Don't short top-level pins
+MAGIC_EXT_SHORT_RESISTOR: true
+
+# IGNORE_DISCONNECTED_MODULES:
+#     - manual_routing
+#     - gf180mcu_ocd_ip_sram__sram512x8m8wm1
+
+# Prevent porb_h mangling
+SYNTH_DIRECT_WIRE_BUFFERING: False
+SYNTH_WRITE_NOATTR: False
+
+# Ignores don't touch directive
+PL_TIME_DRIVEN: False
+
+# Clock
+CLOCK_NET: gpio_in[38]
+CLOCK_PORT: gpio_in[38]
+CLOCK_PERIOD: 15
+
+# SDC
+FALLBACK_SDC_FILE: dir::base.sdc
+
+# CTS
+CTS_OBSTRUCTION_AWARE: true
+CTS_CLK_MAX_WIRE_LENGTH: 1200
+CTS_SINK_CLUSTERING_SIZE: 25 # default 25
+CTS_SINK_CLUSTERING_MAX_DIAMETER: 60 # default 50
+
+# Routing
+GRT_ALLOW_CONGESTION: true
+RT_CLOCK_MAX_LAYER: Metal4
+#RT_MAX_LAYER: Metal4
+#DRT_MAX_LAYER: Metal4
+
+# Resizer
+# RSZ_DONT_TOUCH_RX: porb_l|por_l
+DESIGN_REPAIR_BUFFER_INPUT_PORTS: false
+DESIGN_REPAIR_BUFFER_OUTPUT_PORTS: false
+
+# Overfix hold violations
+PL_RESIZER_HOLD_SLACK_MARGIN: 0.2
+
+VDD_NETS:
+- vccd
+
+GND_NETS:
+- vssd
+
+FP_PDN_CFG: dir::pdn_cfg.tcl
+
+FP_PDN_VWIDTH: 2.0
+FP_PDN_HWIDTH: 5.0
+FP_PDN_VSPACING: 1.7
+FP_PDN_HSPACING: 1.7
+FP_PDN_VPITCH: 55
+FP_PDN_HPITCH: 70
+
+FP_PDN_CORE_RING: true
+FP_PDN_CORE_RING_VWIDTH: 8
+FP_PDN_CORE_RING_HWIDTH: 8
+
+FP_PDN_CORE_RING_VOFFSET: 2
+FP_PDN_CORE_RING_HOFFSET: 2
+
+# Floorplanning
+FP_SIZING: absolute
+
+DIE_AREA: [ 350.00,  350.00, 3529.90, 4719.90 ]
+CORE_AREA: [ 372.00,  372.00, 3507.90, 4697.90 ]
+
+FP_DEF_TEMPLATE: dir::../def/openframe_project_wrapper.def
+FP_TEMPLATE_MATCH_MODE: permissive
+#FP_TEMPLATE_COPY_POWER_PINS: True
+
+PL_TARGET_DENSITY_PCT: 20 # TODO
+
+# FP_OBSTRUCTIONS:
+## SIO
+# - [2651.15, 0.00, 3170.30, 55.215]
+## ADC/DAC area
+# - [790, 0.00, 1720, 290]
+
+PDN_OBSTRUCTIONS:
+## SIO
+# - [Metal1, 2661.15, 0.00, 3141.15, 46.715]
+# - [Metal2, 2661.15, 0.00, 3141.15, 46.715]
+# - [Metal3, 2661.15, 0.00, 3141.15, 46.715]
+# - [Metal4, 2661.15, 0.00, 3141.15, 46.715]
+# - [Metal5, 2661.15, 0.00, 3141.15, 46.715]
+## ADC/DAC area
+# - [Metal4, 790, 0.00, 1720, 290] #[Metal4, 800, 20, 1700, 270]
+# - [Metal5, 790, 0.00, 1720, 290] #[Metal5, 800, 20, 1700, 270]
+## Logo
+# - [Metal5, 2665, 120, 3129.4, 203.5]
+
+# Power connections
+
+# Bottom
+- [Metal4, 26.45, 0, 100.66, 20]
+
+- [Metal4, 931.45, 0, 1005.66, 20]
+
+- [Metal4, 1611.45, 0, 1685.66, 20]
+
+- [Metal4, 2551.45, 0, 2625.66, 20]
+
+# Top
+- [Metal4, 3085.65, 4750.65, 3147.9, 4770.65]
+
+- [Metal4, 2375.64, 4750.65, 2449.905, 4770.65]
+
+- [Metal4, 725.65, 4750.65, 799.85, 4770.65]
+
+- [Metal4, 27.65, 4750.65, 89.85, 4770.65]
+
+ROUTING_OBSTRUCTIONS:
+## SIO
+# - [Metal1, 2661.15, 0.00, 3141.15, 46.715]
+# - [Metal2, 2661.15, 0.00, 3141.15, 46.715]
+# - [Metal3, 2661.15, 0.00, 3141.15, 46.715]
+# - [Metal4, 2661.15, 0.00, 3141.15, 46.715]
+# - [Metal5, 2661.15, 0.00, 3141.15, 46.715]
+## ADC/DAC area
+# - [Metal4, 800, 0.00, 1700, 270]
+## Logo
+# - [Metal5, 2665, 120, 3070, 265]
+
+
+# Power connections
+
+# Bottom
+- [Metal3, 26.45, 0, 100.66, 20]
+- [Metal4, 26.45, 0, 100.66, 20]
+
+- [Metal3, 931.45, 0, 1005.66, 20]
+- [Metal4, 931.45, 0, 1005.66, 20]
+
+- [Metal3, 1611.45, 0, 1685.66, 20]
+- [Metal4, 1611.45, 0, 1685.66, 20]
+
+- [Metal3, 2551.45, 0, 2625.66, 20]
+- [Metal4, 2551.45, 0, 2625.66, 20]
+
+# Right
+- [Metal3, 3150.3, 584.8, 3170.3, 659]
+
+- [Metal3, 3150.3, 2184.8, 3170.3, 2259.01]
+
+- [Metal3, 3150.3, 3487.8, 3170.3, 3562]
+
+- [Metal3, 3150.3, 4527.8, 3170.3, 4602.01]
+
+# Top
+- [Metal3, 3085.65, 4750.65, 3147.9, 4770.65]
+- [Metal4, 3085.65, 4750.65, 3147.9, 4770.65]
+
+- [Metal3, 2375.64, 4750.65, 2449.905, 4770.65]
+- [Metal4, 2375.64, 4750.65, 2449.905, 4770.65]
+
+- [Metal3, 725.65, 4750.65, 799.85, 4770.65]
+- [Metal4, 725.65, 4750.65, 799.85, 4770.65]
+
+- [Metal3, 27.65, 4750.65, 89.85, 4770.65]
+- [Metal4, 27.65, 4750.65, 89.85, 4770.65]
+
+# Left
+- [Metal3, 0, 4537, 20, 4611.2]
+
+- [Metal3, 0, 3497, 20, 3571.2]
+
+- [Metal3, 0, 2199, 20, 2273.2]
+
+- [Metal3, 0, 589, 20, 663.2]
+
+# Magic: Use GDS views (no DRC issues)
+MAGIC_DRC_USE_GDS: True
+
+# Allow top ports to be non-unique (because power names are duplicated)
+MAGIC_EXT_UNIQUE: notopports
+
+MACROS:
+
+  gf180mcu_ocd_ip_sram__sram512x8m8wm1:
+    gds:
+      - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/gds/gf180mcu_ocd_ip_sram__sram512x8m8wm1.gds
+    lef:
+      - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lef/gf180mcu_ocd_ip_sram__sram512x8m8wm1.lef
+    vh:
+      - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/verilog/gf180mcu_ocd_ip_sram__sram512x8m8wm1.blackbox.v
+    lib:
+      "*_tt_025C_3v30":
+        - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lib/gf180mcu_ocd_ip_sram__sram512x8m8wm1__tt_025C_3v30.lib
+      "*_ff_n40C_3v60":
+        - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lib/gf180mcu_ocd_ip_sram__sram512x8m8wm1__ff_n40C_3v60.lib
+      "*_ss_125C_3v00":
+        - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lib/gf180mcu_ocd_ip_sram__sram512x8m8wm1__ss_125C_3v00.lib
+    instances: 
+      user_project.picosoc.soc_mem.mem.sram_0:
+        location: [2635, 4100]
+        orientation: N
+      user_project.picosoc.soc_mem.mem.sram_1:
+        location: [2635, 3580]
+        orientation: N
+      user_project.picosoc.soc_mem.mem.sram_2:
+        location: [2635, 3060]
+        orientation: N
+      user_project.picosoc.soc_mem.mem.sram_3:
+        location: [2635, 2540]
+        orientation: N
+
+  gf180mcu_ocd_ip_sram__sram256x8m8wm1:
+    gds:
+      - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/gds/gf180mcu_ocd_ip_sram__sram256x8m8wm1.gds
+    lef:
+      - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lef/gf180mcu_ocd_ip_sram__sram256x8m8wm1.lef
+    vh:
+      - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/verilog/gf180mcu_ocd_ip_sram__sram256x8m8wm1.blackbox.v
+    lib:
+      "*_tt_025C_3v30":
+        - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lib/gf180mcu_ocd_ip_sram__sram256x8m8wm1__tt_025C_3v30.lib
+      "*_ff_n40C_3v60":
+        - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lib/gf180mcu_ocd_ip_sram__sram256x8m8wm1__ff_n40C_3v60.lib
+      "*_ss_125C_3v00":
+        - pdk_dir::libs.ref/gf180mcu_ocd_ip_sram/lib/gf180mcu_ocd_ip_sram__sram256x8m8wm1__ss_125C_3v00.lib
+    instances: 
+      user_project.picosoc.soc_mem.mem.sram_4:
+        location: [2635, 2020]
+        orientation: N
+      user_project.picosoc.soc_mem.mem.sram_5:
+        location: [2635, 1500]
+        orientation: N
+      user_project.picosoc.soc_mem.mem.sram_6:
+        location: [2635, 980]
+        orientation: N
+      user_project.picosoc.soc_mem.mem.sram_7:
+        location: [2635, 460]
+        orientation: N
+
+  ring_osc2x13:
+    gds:
+      - dir::../ip/ring_osc2x13/gds/ring_osc2x13.gds
+    lef:
+      - dir::../ip/ring_osc2x13/lef/ring_osc2x13.lef
+    vh:
+      - dir::../verilog/rtl/ring_osc2x13.v
+    lib:
+      "*_tt_025C_3v30":
+        - dir::../ip/ring_osc2x13/lib/ring_osc2x13.lib
+      "*_ff_n40C_3v60":
+        - dir::../ip/ring_osc2x13/lib/ring_osc2x13.lib
+      "*_ss_125C_3v00":
+        - dir::../ip/ring_osc2x13/lib/ring_osc2x13.lib
+    instances:
+      user_project.picosoc.dll.ringosc:
+        location: [460, 460]
+        orientation: N
+
+#  manual_routing:
+#    gds:
+#      - dir::ip/manual_routing/gds/manual_routing.gds.gz
+#    lef:
+#      - dir::ip/manual_routing/lef/manual_routing.lef
+#    nl:
+#      - dir::ip/manual_routing/gl/manual_routing.v
+#    instances:
+#      manual_routing:
+#        location: [0, 0]
+#        orientation: N
+
+PDN_MACRO_CONNECTIONS:
+  - "user_project.picosoc.soc_mem.mem.sram_7 VDD VSS VPWR VGND"
+  - "user_project.picosoc.soc_mem.mem.sram_6 VDD VSS VPWR VGND"
+  - "user_project.picosoc.soc_mem.mem.sram_5 VDD VSS VPWR VGND"
+  - "user_project.picosoc.soc_mem.mem.sram_4 VDD VSS VPWR VGND"
+  - "user_project.picosoc.soc_mem.mem.sram_3 VDD VSS VPWR VGND"
+  - "user_project.picosoc.soc_mem.mem.sram_2 VDD VSS VPWR VGND"
+  - "user_project.picosoc.soc_mem.mem.sram_1 VDD VSS VPWR VGND"
+  - "user_project.picosoc.soc_mem.mem.sram_0 VDD VSS VPWR VGND"
+  - "user_project.picosoc.soc_mem.mem.sram_0 VDD VSS VPWR VGND"
+  - "user_project.picosoc.dll.ringosc VDD VSS VPWR VGND"

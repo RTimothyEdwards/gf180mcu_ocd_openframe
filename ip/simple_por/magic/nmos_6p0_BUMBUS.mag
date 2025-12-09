@@ -1,0 +1,66 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1765308861
+<< pwell >>
+rect -334 -332 334 332
+<< hvnmos >>
+rect -70 -76 70 124
+<< mvndiff >>
+rect -158 94 -70 124
+rect -158 -46 -145 94
+rect -99 -46 -70 94
+rect -158 -76 -70 -46
+rect 70 94 158 124
+rect 70 -46 99 94
+rect 145 -46 158 94
+rect 70 -76 158 -46
+<< mvndiffc >>
+rect -145 -46 -99 94
+rect 99 -46 145 94
+<< mvpsubdiff >>
+rect -302 287 302 300
+rect -302 241 -164 287
+rect 164 241 302 287
+rect -302 228 302 241
+rect -302 164 -230 228
+rect -302 -164 -289 164
+rect -243 -164 -230 164
+rect 230 164 302 228
+rect -302 -228 -230 -164
+rect 230 -164 243 164
+rect 289 -164 302 164
+rect 230 -228 302 -164
+rect -302 -300 302 -228
+<< mvpsubdiffcont >>
+rect -164 241 164 287
+rect -289 -164 -243 164
+rect 243 -164 289 164
+<< polysilicon >>
+rect -70 124 70 168
+rect -70 -109 70 -76
+rect -70 -155 -23 -109
+rect 23 -155 70 -109
+rect -70 -168 70 -155
+<< polycontact >>
+rect -23 -155 23 -109
+<< metal1 >>
+rect -289 241 -164 287
+rect 164 241 289 287
+rect -289 164 -243 241
+rect 243 164 289 241
+rect -145 94 -99 122
+rect -145 -74 -99 -46
+rect 99 94 145 122
+rect 99 -74 145 -46
+rect -68 -155 -23 -109
+rect 23 -155 68 -109
+rect -289 -241 -243 -164
+rect 243 -241 289 -164
+rect -289 -287 289 -241
+<< properties >>
+string FIXED_BBOX -266 -264 266 264
+string GDS_END 3000
+string GDS_FILE ../gds/simple_por.gds.gz
+string GDS_START 116
+<< end >>

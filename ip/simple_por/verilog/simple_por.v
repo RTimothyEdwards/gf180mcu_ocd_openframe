@@ -34,13 +34,13 @@ module simple_por(
     // current (slowly) from DVDD (5V) onto a capacitor, and this fed into
     // a schmitt trigger inverter for strong hysteresis/glitch tolerance.
 
-    initial begin
-        inode = 1'bx;
-        @(posedge VDD); 
-        inode = 1'b0; 
-        #PoR_DURATION;
-        inode = 1'b1; 
-    end 
+    // initial begin
+    //  inode = 1'bx;
+    //  @(posedge VDD); 
+    //  inode = 1'b0; 
+    //  #PoR_DURATION;
+    //  inode = 1'b1; 
+    // end 
 
     // Emulate current source on capacitor as a 500ns delay either up or
     // down.  Note that this is sped way up for verilog simulation;  the
@@ -48,14 +48,16 @@ module simple_por(
 
     // Problem:  The GF power supplies in the I/O library are implemented
     // with "supply0" and "supply1", meaning that the power supply is tied
-    // high permanently and never transitions.
+    // high permanently and never transitions.  This should be fixed in
+    // the power pad definitions.
 
     // always @(posedge VDD) begin
-    // initial begin
-    //	    #1000 inode <= 1'b1;
-    // end
+    initial begin
+	inode <= 1'b0;
+        #1000 inode <= 1'b1;
+    end
     // always @(negedge VDD) begin
-    //	    #500 inode <= 1'b0;
+    //     #500 inode <= 1'b0;
     // end
 
     // Instantiate this as a buffer.

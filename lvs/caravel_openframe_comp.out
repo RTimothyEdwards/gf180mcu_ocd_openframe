@@ -522,7 +522,7 @@ DVSS                                                                         |DV
 Cell pin lists are equivalent.
 Device classes gf180mcu_ocd_io__in_s and gf180mcu_ocd_io__in_s are equivalent.
 Flattening unmatched subcell horz_connects_gpio_disabled in circuit openframe_user_project (0)(15 instances)
-Flattening unmatched subcell vert_connects_gpio_disabled in circuit openframe_user_project (0)(28 instances)
+Flattening unmatched subcell vert_connects_gpio_disabled in circuit openframe_user_project (0)(29 instances)
 
 Cell openframe_user_project (0) disconnected node: gpio_in[38]
 Cell openframe_user_project (0) disconnected node: gpio_in[40]
@@ -530,8 +530,6 @@ Cell openframe_user_project (0) disconnected node: gpio_in[39]
 Cell openframe_user_project (0) disconnected node: gpio_in[41]
 Cell openframe_user_project (0) disconnected node: gpio_in[42]
 Cell openframe_user_project (0) disconnected node: gpio_in[43]
-Cell openframe_user_project (0) disconnected node: gpio_drive0[35]
-Cell openframe_user_project (0) disconnected node: gpio_drive1[35]
 Cell openframe_user_project (0) disconnected node: gpio_in[0]
 Cell openframe_user_project (0) disconnected node: gpio_in[10]
 Cell openframe_user_project (0) disconnected node: gpio_in[11]
@@ -570,13 +568,6 @@ Cell openframe_user_project (0) disconnected node: gpio_in[6]
 Cell openframe_user_project (0) disconnected node: gpio_in[7]
 Cell openframe_user_project (0) disconnected node: gpio_in[8]
 Cell openframe_user_project (0) disconnected node: gpio_in[9]
-Cell openframe_user_project (0) disconnected node: gpio_ie[35]
-Cell openframe_user_project (0) disconnected node: gpio_out[35]
-Cell openframe_user_project (0) disconnected node: gpio_oe[35]
-Cell openframe_user_project (0) disconnected node: gpio_pulldown[35]
-Cell openframe_user_project (0) disconnected node: gpio_pullup[35]
-Cell openframe_user_project (0) disconnected node: gpio_schmitt[35]
-Cell openframe_user_project (0) disconnected node: gpio_slew[35]
 Cell openframe_user_project (0) disconnected node: resetb_core
 Cell openframe_user_project (0) disconnected node: gpio_ana[0]
 Cell openframe_user_project (0) disconnected node: gpio_ana[1]
@@ -646,14 +637,20 @@ Cell openframe_user_project (0) disconnected node: gpio_loopback_one[20]
 Cell openframe_user_project (0) disconnected node: gpio_loopback_one[21]
 Cell openframe_user_project (0) disconnected node: gpio_loopback_one[22]
 Cell openframe_user_project (0) disconnected node: gpio_loopback_one[23]
+Cell openframe_user_project (0) disconnected node: gpio_loopback_one[24]
 Cell openframe_user_project (0) disconnected node: gpio_loopback_one[25]
 Cell openframe_user_project (0) disconnected node: gpio_loopback_one[26]
+Cell openframe_user_project (0) disconnected node: gpio_loopback_one[27]
 Cell openframe_user_project (0) disconnected node: gpio_loopback_one[28]
 Cell openframe_user_project (0) disconnected node: gpio_loopback_one[29]
+Cell openframe_user_project (0) disconnected node: gpio_loopback_one[30]
+Cell openframe_user_project (0) disconnected node: gpio_loopback_one[31]
+Cell openframe_user_project (0) disconnected node: gpio_loopback_one[32]
+Cell openframe_user_project (0) disconnected node: gpio_loopback_one[33]
 Cell openframe_user_project (0) disconnected node: gpio_loopback_one[34]
 Cell openframe_user_project (0) disconnected node: gpio_loopback_one[35]
-Cell openframe_user_project (0) disconnected node: gpio_loopback_zero[35]
 Cell openframe_user_project (0) disconnected node: gpio_loopback_one[36]
+Cell openframe_user_project (0) disconnected node: gpio_loopback_one[37]
 Cell openframe_user_project (0) disconnected node: gpio_loopback_one[38]
 Cell openframe_user_project (0) disconnected node: gpio_loopback_one[39]
 Cell openframe_user_project (0) disconnected node: gpio_loopback_one[40]
@@ -699,13 +696,267 @@ Cell openframe_user_project (0) disconnected node: vssio
 Cell openframe_user_project (0) disconnected node: vssd
 Cell openframe_user_project (0) disconnected node: vddio
 Cell openframe_user_project (0) disconnected node: vccd
-Cell openframe_user_project (0) disconnected node: gpio_loopback_one[30]
-Cell openframe_user_project (0) disconnected node: gpio_loopback_one[33]
-Cell openframe_user_project (0) disconnected node: gpio_loopback_one[32]
-Cell openframe_user_project (0) disconnected node: gpio_loopback_one[37]
-Cell openframe_user_project (0) disconnected node: gpio_loopback_one[24]
-Cell openframe_user_project (0) disconnected node: gpio_loopback_one[27]
-Cell openframe_user_project (0) disconnected node: gpio_loopback_one[31]
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_15/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_27/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_27/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_10/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_22/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_22/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_25/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_15/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_5/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_15/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_20/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_18/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_10/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_0/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_10/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_27/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_13/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_22/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_26/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_5/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_5/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_8/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_15/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_21/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_0/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_0/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_19/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_3/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_10/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_14/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_5/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_9/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_26/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_0/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_4/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_21/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_19/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_20/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_20/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_14/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_26/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_26/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_21/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_21/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_21/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_21/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_19/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_9/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_19/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_22/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_24/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_22/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_14/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_14/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_4/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_23/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_17/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_23/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_26/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_12/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_9/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_9/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_24/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_24/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_21/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_19/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_25/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_4/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_4/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_25/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_7/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_25/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_14/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_20/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_18/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_2/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_26/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_13/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_26/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_9/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_0/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_0/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_27/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_27/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_4/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_8/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_25/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_1/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_28/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_1/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_28/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_3/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_20/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_20/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_18/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_2/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_10/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_2/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_10/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_13/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_21/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_25/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_3/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_25/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_3/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_11/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_11/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_28/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_22/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_20/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_20/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_8/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_18/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_18/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_4/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_12/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_4/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_23/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_12/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_13/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_13/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_3/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_23/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_5/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_5/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_13/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_16/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_13/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_25/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_24/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_8/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_6/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_8/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_11/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_14/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_6/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_14/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_20/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_18/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_24/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_3/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_25/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_3/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_7/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_7/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_15/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_15/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_6/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_13/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_17/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_26/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_8/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_1/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_8/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_16/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_12/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_16/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_8/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_0/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_27/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_9/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_9/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_17/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_17/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_3/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_7/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_1/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_28/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_24/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_18/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_18/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_2/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_2/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_10/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_17/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_19/m2_32_1840#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_19/m2_32_1986#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_12/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_3/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_11/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_24/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_24/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_27/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_4/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_12/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_7/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_17/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_17/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_22/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_5/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_2/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_12/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_12/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_13/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_15/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_6/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_24/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_14/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_28/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_10/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_7/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_7/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_7/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_17/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_23/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_2/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_15/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_2/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_5/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_12/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_16/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_8/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_16/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_0/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_11/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_9/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_7/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_17/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_28/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_2/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_6/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_18/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_23/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_1/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_19/m2_32_2132#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_16/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_28/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_28/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_11/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_23/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_23/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_26/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_16/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_16/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_6/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_21/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_19/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_11/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_11/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_1/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_28/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_14/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_23/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_27/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_6/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_6/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_9/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_16/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_22/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_1/m2_32_15194#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_1/m2_32_13800#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_4/m2_32_13589#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_11/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_15/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_10/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_6/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_27/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_1/m2_32_14302#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_5/m2_32_14673#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_22/m2_32_14444#
+Cell openframe_user_project (0) disconnected node: vert_connects_gpio_disabled_0/m2_32_14673#
 
 Subcircuit pins:
 Circuit 1: openframe_user_project                                            |Circuit 2: openframe_user_project                                            
@@ -1243,18 +1494,24 @@ gpio_loopback_one[22]                                                        |gp
 gpio_loopback_one[23]                                                        |gpio_loopback_one[23]                                                        
 gpio_loopback_zero[23]                                                       |gpio_loopback_zero[23]                                                       
 gpio_loopback_zero[24]                                                       |gpio_loopback_zero[24]                                                       
+gpio_loopback_one[24]                                                        |gpio_loopback_one[24]                                                        
 gpio_loopback_one[25]                                                        |gpio_loopback_one[25]                                                        
 gpio_loopback_zero[25]                                                       |gpio_loopback_zero[25]                                                       
 gpio_loopback_zero[26]                                                       |gpio_loopback_zero[26]                                                       
 gpio_loopback_one[26]                                                        |gpio_loopback_one[26]                                                        
+gpio_loopback_one[27]                                                        |gpio_loopback_one[27]                                                        
 gpio_loopback_zero[27]                                                       |gpio_loopback_zero[27]                                                       
 gpio_loopback_zero[28]                                                       |gpio_loopback_zero[28]                                                       
 gpio_loopback_one[28]                                                        |gpio_loopback_one[28]                                                        
 gpio_loopback_one[29]                                                        |gpio_loopback_one[29]                                                        
 gpio_loopback_zero[29]                                                       |gpio_loopback_zero[29]                                                       
 gpio_loopback_zero[30]                                                       |gpio_loopback_zero[30]                                                       
+gpio_loopback_one[30]                                                        |gpio_loopback_one[30]                                                        
+gpio_loopback_one[31]                                                        |gpio_loopback_one[31]                                                        
 gpio_loopback_zero[31]                                                       |gpio_loopback_zero[31]                                                       
 gpio_loopback_zero[32]                                                       |gpio_loopback_zero[32]                                                       
+gpio_loopback_one[32]                                                        |gpio_loopback_one[32]                                                        
+gpio_loopback_one[33]                                                        |gpio_loopback_one[33]                                                        
 gpio_loopback_zero[33]                                                       |gpio_loopback_zero[33]                                                       
 gpio_loopback_zero[34]                                                       |gpio_loopback_zero[34]                                                       
 gpio_loopback_one[34]                                                        |gpio_loopback_one[34]                                                        
@@ -1262,6 +1519,7 @@ gpio_loopback_one[35]                                                        |gp
 gpio_loopback_zero[35]                                                       |gpio_loopback_zero[35]                                                       
 gpio_loopback_zero[36]                                                       |gpio_loopback_zero[36]                                                       
 gpio_loopback_one[36]                                                        |gpio_loopback_one[36]                                                        
+gpio_loopback_one[37]                                                        |gpio_loopback_one[37]                                                        
 gpio_loopback_zero[37]                                                       |gpio_loopback_zero[37]                                                       
 gpio_loopback_zero[38]                                                       |gpio_loopback_zero[38]                                                       
 gpio_loopback_one[38]                                                        |gpio_loopback_one[38]                                                        
@@ -1318,14 +1576,268 @@ vssio                                                                        |vs
 vssd                                                                         |vssd                                                                         
 vddio                                                                        |vddio                                                                        
 vccd                                                                         |vccd                                                                         
-gpio_loopback_one[30]                                                        |gpio_loopback_one[30]                                                        
 gpio_drive1[15]                                                              |gpio_drive1[15]                                                              
-gpio_loopback_one[33]                                                        |gpio_loopback_one[33]                                                        
-gpio_loopback_one[32]                                                        |gpio_loopback_one[32]                                                        
-gpio_loopback_one[37]                                                        |gpio_loopback_one[37]                                                        
-gpio_loopback_one[24]                                                        |gpio_loopback_one[24]                                                        
-gpio_loopback_one[27]                                                        |gpio_loopback_one[27]                                                        
-gpio_loopback_one[31]                                                        |gpio_loopback_one[31]                                                        
+vert_connects_gpio_disabled_15/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_27/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_27/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_10/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_22/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_22/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_25/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_15/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_5/m2_32_14444#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_15/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_20/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_18/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_10/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_0/m2_32_14444#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_10/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_27/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_13/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_22/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_26/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_5/m2_32_15194#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_5/m2_32_13800#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_8/m2_32_13589#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_15/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_21/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_0/m2_32_15194#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_0/m2_32_13800#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_19/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_3/m2_32_13589#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_10/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_14/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_5/m2_32_14302#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_9/m2_32_14673#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_26/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_0/m2_32_14302#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_4/m2_32_14673#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_21/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_19/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_20/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_20/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_14/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_26/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_26/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_21/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_21/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_21/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_21/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_19/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_9/m2_32_14444#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_19/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_22/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_24/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_22/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_14/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_14/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_4/m2_32_14444#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_23/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_17/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_23/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_26/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_12/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_9/m2_32_13800#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_9/m2_32_15194#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_24/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_24/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_21/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_19/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_25/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_4/m2_32_13800#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_4/m2_32_15194#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_25/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_7/m2_32_13589#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_25/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_14/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_20/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_18/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_2/m2_32_13589#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_26/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_13/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_26/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_9/m2_32_14302#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_0/m2_32_1840#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_0/m2_32_1986#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_27/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_27/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_4/m2_32_14302#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_8/m2_32_14673#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_25/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_1/m2_32_1840#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_28/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_1/m2_32_1986#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_28/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_3/m2_32_14673#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_20/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_20/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_18/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_2/m2_32_1840#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_10/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_2/m2_32_1986#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_10/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_13/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_21/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_25/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_3/m2_32_1840#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_25/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_3/m2_32_1986#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_11/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_11/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_28/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_22/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_20/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_20/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_8/m2_32_14444#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_18/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_18/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_4/m2_32_1840#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_12/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_4/m2_32_1986#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_23/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_12/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_13/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_13/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_3/m2_32_14444#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_23/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_5/m2_32_1840#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_5/m2_32_1986#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_13/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_16/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_13/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_25/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_24/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_8/m2_32_13800#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_6/m2_32_1840#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_8/m2_32_15194#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_11/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_14/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_6/m2_32_1986#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_14/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_20/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_18/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_24/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_3/m2_32_15194#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_25/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_3/m2_32_13800#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_7/m2_32_1840#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_7/m2_32_1986#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_15/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_15/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_6/m2_32_13589#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_13/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_17/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_26/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_8/m2_32_1840#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_1/m2_32_13589#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_8/m2_32_1986#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_16/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_12/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_16/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_8/m2_32_14302#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_0/m2_32_2132#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_27/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_9/m2_32_1840#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_9/m2_32_1986#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_17/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_17/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_3/m2_32_14302#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_7/m2_32_14673#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_1/m2_32_2132#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_28/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_24/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_18/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_18/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_2/m2_32_14673#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_2/m2_32_2132#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_10/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_17/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_19/m2_32_1840#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_19/m2_32_1986#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_12/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_3/m2_32_2132#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_11/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_24/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_24/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_27/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_4/m2_32_2132#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_12/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_7/m2_32_14444#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_17/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_17/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_22/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_5/m2_32_2132#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_2/m2_32_14444#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_12/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_12/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_13/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_15/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_6/m2_32_2132#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_24/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_14/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_28/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_10/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_7/m2_32_15194#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_7/m2_32_13800#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_7/m2_32_2132#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_17/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_23/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_2/m2_32_15194#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_15/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_2/m2_32_13800#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_5/m2_32_13589#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_12/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_16/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_8/m2_32_2132#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_16/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_0/m2_32_13589#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_11/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_9/m2_32_2132#                                    |(no matching pin)                                                            
+vert_connects_gpio_disabled_7/m2_32_14302#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_17/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_28/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_2/m2_32_14302#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_6/m2_32_14673#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_18/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_23/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_1/m2_32_14673#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_19/m2_32_2132#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_16/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_28/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_28/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_11/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_23/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_23/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_26/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_16/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_16/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_6/m2_32_14444#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_21/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_19/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_11/m2_32_15194#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_11/m2_32_13800#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_1/m2_32_14444#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_28/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_14/m2_32_13589#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_23/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_27/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_6/m2_32_15194#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_6/m2_32_13800#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_9/m2_32_13589#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_16/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_22/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_1/m2_32_15194#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_1/m2_32_13800#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_4/m2_32_13589#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_11/m2_32_14302#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_15/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_10/m2_32_14673#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_6/m2_32_14302#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_27/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_1/m2_32_14302#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_5/m2_32_14673#                                   |(no matching pin)                                                            
+vert_connects_gpio_disabled_22/m2_32_14444#                                  |(no matching pin)                                                            
+vert_connects_gpio_disabled_0/m2_32_14673#                                   |(no matching pin)                                                            
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes openframe_user_project and openframe_user_project are equivalent.
@@ -1409,6 +1921,267 @@ Netlists do not match.
 Port matching may fail to disambiguate symmetries.
   Flattening non-matched subcircuits gf180mcu_padframe gf180mcu_padframe
 
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_14302#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_14444#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_1986#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_14673#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_13800#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_2132#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_13589#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_1840#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_15194#
+Cell openframe_project_wrapper (0) disconnected node: openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_1986#
 
 Subcircuit pins:
 Circuit 1: openframe_project_wrapper                                         |Circuit 2: openframe_project_wrapper                                         
@@ -1924,7 +2697,6 @@ gpio_loopback_zero[11]                                                       |gp
 gpio_loopback_zero[12]                                                       |gpio_loopback_zero[12]                                                       
 gpio_loopback_one[12]                                                        |gpio_loopback_one[12]                                                        
 gpio_loopback_one[13]                                                        |gpio_loopback_one[13]                                                        
-gpio_loopback_zero[13]                                                       |gpio_loopback_zero[13]                                                       
 gpio_loopback_zero[14]                                                       |gpio_loopback_zero[14]                                                       
 gpio_loopback_one[14]                                                        |gpio_loopback_one[14]                                                        
 gpio_loopback_one[15]                                                        |gpio_loopback_one[15]                                                        
@@ -1958,8 +2730,11 @@ gpio_loopback_one[28]                                                        |gp
 gpio_loopback_one[29]                                                        |gpio_loopback_one[29]                                                        
 gpio_loopback_zero[29]                                                       |gpio_loopback_zero[29]                                                       
 gpio_loopback_zero[30]                                                       |gpio_loopback_zero[30]                                                       
+gpio_loopback_one[30]                                                        |gpio_loopback_one[30]                                                        
+gpio_loopback_one[31]                                                        |gpio_loopback_one[31]                                                        
 gpio_loopback_zero[31]                                                       |gpio_loopback_zero[31]                                                       
 gpio_loopback_zero[32]                                                       |gpio_loopback_zero[32]                                                       
+gpio_loopback_one[32]                                                        |gpio_loopback_one[32]                                                        
 gpio_loopback_one[33]                                                        |gpio_loopback_one[33]                                                        
 gpio_loopback_zero[33]                                                       |gpio_loopback_zero[33]                                                       
 gpio_loopback_zero[34]                                                       |gpio_loopback_zero[34]                                                       
@@ -1967,6 +2742,8 @@ gpio_loopback_one[34]                                                        |gp
 gpio_loopback_one[35]                                                        |gpio_loopback_one[35]                                                        
 gpio_loopback_zero[35]                                                       |gpio_loopback_zero[35]                                                       
 gpio_loopback_zero[36]                                                       |gpio_loopback_zero[36]                                                       
+gpio_loopback_one[36]                                                        |gpio_loopback_one[36]                                                        
+gpio_loopback_one[37]                                                        |gpio_loopback_one[37]                                                        
 gpio_loopback_zero[37]                                                       |gpio_loopback_zero[37]                                                       
 gpio_loopback_zero[38]                                                       |gpio_loopback_zero[38]                                                       
 gpio_loopback_one[38]                                                        |gpio_loopback_one[38]                                                        
@@ -1980,6 +2757,7 @@ gpio_loopback_zero[42]                                                       |gp
 gpio_loopback_one[42]                                                        |gpio_loopback_one[42]                                                        
 gpio_loopback_one[43]                                                        |gpio_loopback_one[43]                                                        
 gpio_loopback_zero[43]                                                       |gpio_loopback_zero[43]                                                       
+resetb_pullup                                                                |resetb_pullup                                                                
 resetb_pulldown                                                              |resetb_pulldown                                                              
 resetb_loopback_one                                                          |resetb_loopback_one                                                          
 resetb_loopback_zero                                                         |resetb_loopback_zero                                                         
@@ -2023,12 +2801,268 @@ vssd                                                                         |vs
 vddio                                                                        |vddio                                                                        
 vccd                                                                         |vccd                                                                         
 gpio_drive1[19]                                                              |gpio_drive1[19]                                                              
-gpio_loopback_one[32]                                                        |gpio_loopback_one[32]                                                        
-gpio_loopback_one[37]                                                        |gpio_loopback_one[37]                                                        
-gpio_loopback_one[31]                                                        |gpio_loopback_one[31]                                                        
-resetb_pullup                                                                |resetb_pullup                                                                
-gpio_loopback_one[36]                                                        |gpio_loopback_one[36]                                                        
-gpio_loopback_one[30]                                                        |gpio_loopback_one[30]                                                        
+gpio_loopback_zero[13]                                                       |gpio_loopback_zero[13]                                                       
+openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_2132#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_2132#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_14444#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_14444#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_13800#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_15194#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_15194#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_13800#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_13589#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_13589#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_14302#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_14302#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_14673#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_14673#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_14444#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_14444#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_15194#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_13800#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_13589#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_15194#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_13800#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_13589#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_14302#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_14302#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_14673#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_14673#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_14444#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_14444#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_15194#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_13800#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_13589#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_15194#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_13800#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_13589#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_14302#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_14673#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_14302#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_14673#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_14444#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_1840#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_1986#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_14444#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_1840#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_1986#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_15194#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_13800#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_1840#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_1986#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_15194#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_13800#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_13589#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_1840#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_1986#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_13589#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_1840#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_1986#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_14302#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_1840#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_14302#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_1986#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_14673#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_1840#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_14673#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_1986#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_1840#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_1986#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_1840#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_11/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_1986#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_22/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_14444#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_0/m2_32_2132#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_1840#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_9/m2_32_1986#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_12/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_14444#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_23/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_2132#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_21/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_24/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_14302#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_2132#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_15194#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_13800#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_14/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_15194#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_13800#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_2132#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_14673#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_15/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_13589#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_26/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_4/m2_32_2132#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_1/m2_32_13589#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_16/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_8/m2_32_14302#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_27/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_5/m2_32_2132#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_17/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_3/m2_32_14302#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_14673#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_6/m2_32_2132#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_13/m2_32_14444#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_18/m2_32_1986#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_2/m2_32_14673#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_25/m2_32_13800#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_10/m2_32_2132#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_7/m2_32_2132#           |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_28/m2_32_13589#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_1840#          |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_20/m2_32_15194#         |(no matching pin)                                                            
+openframe_user_project_0/vert_connects_gpio_disabled_19/m2_32_1986#          |(no matching pin)                                                            
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes openframe_project_wrapper and openframe_project_wrapper are equivalent.
@@ -2110,57 +3144,57 @@ Net: padframe/gpio_loopback_zero[6]                                          |Ne
   gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_zero[6] = 1                        |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_one[7]                                           |Net: gpio_loopback_zero[33]                                                  
+Net: padframe/gpio_loopback_one[6]                                           |Net: gpio_loopback_zero[33]                                                  
+  gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/zero = 1                                          
+  openframe_project_wrapper/gpio_loopback_one[6] = 1                         |                                                                             
+                                                                             |                                                                             
+Net: padframe/gpio_loopback_one[7]                                           |Net: gpio_loopback_zero[32]                                                  
   gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_one[7] = 1                         |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_zero[7]                                          |Net: gpio_loopback_zero[32]                                                  
+Net: padframe/gpio_loopback_zero[7]                                          |Net: gpio_loopback_zero[31]                                                  
   gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_zero[7] = 1                        |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_zero[8]                                          |Net: gpio_loopback_zero[31]                                                  
+Net: padframe/gpio_loopback_zero[8]                                          |Net: gpio_loopback_zero[30]                                                  
   gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_zero[8] = 1                        |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_one[8]                                           |Net: gpio_loopback_zero[30]                                                  
+Net: padframe/gpio_loopback_one[8]                                           |Net: gpio_loopback_zero[29]                                                  
   gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_one[8] = 1                         |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_one[9]                                           |Net: gpio_loopback_zero[29]                                                  
+Net: padframe/gpio_loopback_one[9]                                           |Net: gpio_loopback_zero[28]                                                  
   gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_one[9] = 1                         |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_zero[9]                                          |Net: gpio_loopback_zero[28]                                                  
+Net: padframe/gpio_loopback_zero[9]                                          |Net: gpio_loopback_zero[27]                                                  
   gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_zero[9] = 1                        |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_zero[10]                                         |Net: gpio_loopback_zero[27]                                                  
+Net: padframe/gpio_loopback_zero[10]                                         |Net: gpio_loopback_zero[26]                                                  
   gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_zero[10] = 1                       |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_one[11]                                          |Net: gpio_loopback_zero[26]                                                  
+Net: padframe/gpio_loopback_one[11]                                          |Net: gpio_loopback_zero[25]                                                  
   gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_one[11] = 1                        |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_zero[11]                                         |Net: gpio_loopback_zero[25]                                                  
+Net: padframe/gpio_loopback_zero[11]                                         |Net: gpio_loopback_zero[24]                                                  
   gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_zero[11] = 1                       |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_zero[12]                                         |Net: gpio_loopback_zero[24]                                                  
+Net: padframe/gpio_loopback_zero[12]                                         |Net: gpio_loopback_zero[23]                                                  
   gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_zero[12] = 1                       |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_one[12]                                          |Net: gpio_loopback_zero[23]                                                  
+Net: padframe/gpio_loopback_one[12]                                          |Net: gpio_loopback_zero[22]                                                  
   gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_one[12] = 1                        |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_one[13]                                          |Net: gpio_loopback_zero[22]                                                  
+Net: padframe/gpio_loopback_one[13]                                          |Net: gpio_loopback_zero[21]                                                  
   gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_one[13] = 1                        |                                                                             
-                                                                             |                                                                             
-Net: padframe/gpio_loopback_zero[13]                                         |Net: gpio_loopback_zero[21]                                                  
-  gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/zero = 1                                          
-  openframe_project_wrapper/gpio_loopback_zero[13] = 1                       |                                                                             
                                                                              |                                                                             
 Net: padframe/gpio_loopback_zero[14]                                         |Net: gpio_loopback_zero[20]                                                  
   gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/zero = 1                                          
@@ -2202,29 +3236,29 @@ Net: padframe/gpio_loopback_one[18]                                          |Ne
   gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_one[18] = 1                        |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_zero[19]                                         |Net: gpio_loopback_zero[10]                                                  
+Net: padframe/gpio_loopback_one[19]                                          |Net: gpio_loopback_zero[10]                                                  
+  gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/zero = 1                                          
+  openframe_project_wrapper/gpio_loopback_one[19] = 1                        |                                                                             
+                                                                             |                                                                             
+Net: padframe/gpio_loopback_zero[19]                                         |Net: gpio_loopback_zero[9]                                                   
   gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_zero[19] = 1                       |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_zero[20]                                         |Net: gpio_loopback_zero[9]                                                   
+Net: padframe/gpio_loopback_zero[20]                                         |Net: gpio_loopback_zero[8]                                                   
   gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_zero[20] = 1                       |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_one[20]                                          |Net: gpio_loopback_zero[8]                                                   
+Net: padframe/gpio_loopback_one[20]                                          |Net: gpio_loopback_zero[7]                                                   
   gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_one[20] = 1                        |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_one[21]                                          |Net: gpio_loopback_zero[7]                                                   
+Net: padframe/gpio_loopback_one[21]                                          |Net: gpio_loopback_zero[6]                                                   
   gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_one[21] = 1                        |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_zero[21]                                         |Net: gpio_loopback_zero[6]                                                   
+Net: padframe/gpio_loopback_zero[21]                                         |Net: gpio_loopback_zero[5]                                                   
   gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/zero = 1                                          
   openframe_project_wrapper/gpio_loopback_zero[21] = 1                       |                                                                             
-                                                                             |                                                                             
-Net: padframe/gpio_loopback_zero[22]                                         |Net: gpio_loopback_zero[5]                                                   
-  gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/zero = 1                                          
-  openframe_project_wrapper/gpio_loopback_zero[22] = 1                       |                                                                             
                                                                              |                                                                             
 Net: padframe/gpio_loopback_one[22]                                          |Net: gpio_loopback_zero[4]                                                   
   gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/zero = 1                                          
@@ -2374,49 +3408,49 @@ Net: padframe/resetb_loopback_zero                                           |Ne
   gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/one = 1                                           
   openframe_project_wrapper/resetb_loopback_zero = 1                         |                                                                             
                                                                              |                                                                             
-Net: padframe/resetb_loopback_one                                            |Net: gpio_loopback_one[12]                                                   
+Net: padframe/gpio_loopback_one[10]                                          |Net: gpio_loopback_one[12]                                                   
+  gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/one = 1                                           
+  openframe_project_wrapper/gpio_loopback_one[10] = 1                        |                                                                             
+                                                                             |                                                                             
+Net: padframe/resetb_loopback_one                                            |Net: gpio_loopback_one[11]                                                   
   gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/one = 1                                           
   openframe_project_wrapper/resetb_loopback_one = 1                          |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_one[33]                                          |Net: gpio_loopback_one[11]                                                   
+Net: padframe/gpio_loopback_one[33]                                          |Net: gpio_loopback_one[10]                                                   
   gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/one = 1                                           
   openframe_project_wrapper/gpio_loopback_one[33] = 1                        |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_one[19]                                          |Net: gpio_loopback_one[10]                                                   
-  gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/one = 1                                           
-  openframe_project_wrapper/gpio_loopback_one[19] = 1                        |                                                                             
-                                                                             |                                                                             
-Net: padframe/gpio_loopback_zero[41]                                         |Net: gpio_loopback_one[9]                                                    
+Net: padframe/gpio_loopback_zero[22]                                         |Net: gpio_loopback_one[9]                                                    
   gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/one = 1                                           
-  openframe_project_wrapper/gpio_loopback_zero[41] = 1                       |                                                                             
+  openframe_project_wrapper/gpio_loopback_zero[22] = 1                       |                                                                             
                                                                              |                                                                             
 Net: padframe/gpio_loopback_one[38]                                          |Net: gpio_loopback_one[8]                                                    
   gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/one = 1                                           
   openframe_project_wrapper/gpio_loopback_one[38] = 1                        |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_one[10]                                          |Net: gpio_loopback_one[7]                                                    
-  gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/one = 1                                           
-  openframe_project_wrapper/gpio_loopback_one[10] = 1                        |                                                                             
+Net: padframe/gpio_loopback_zero[41]                                         |Net: gpio_loopback_one[7]                                                    
+  gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/one = 1                                           
+  openframe_project_wrapper/gpio_loopback_zero[41] = 1                       |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_one[6]                                           |Net: gpio_loopback_one[6]                                                    
-  gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/one = 1                                           
-  openframe_project_wrapper/gpio_loopback_one[6] = 1                         |                                                                             
-                                                                             |                                                                             
-Net: padframe/resetb_pullup                                                  |Net: gpio_loopback_one[5]                                                    
+Net: padframe/resetb_pullup                                                  |Net: gpio_loopback_one[6]                                                    
   gf180mcu_ocd_io__in_s/PU = 1                                               |  gf180mcu_ocd_io__fill10x/one = 1                                           
   openframe_project_wrapper/resetb_pullup = 1                                |                                                                             
                                                                              |                                                                             
-Net: padframe/resetb_pulldown                                                |Net: gpio_loopback_one[4]                                                    
+Net: padframe/resetb_pulldown                                                |Net: gpio_loopback_one[5]                                                    
   gf180mcu_ocd_io__in_s/PD = 1                                               |  gf180mcu_ocd_io__fill10x/one = 1                                           
   openframe_project_wrapper/resetb_pulldown = 1                              |                                                                             
+                                                                             |                                                                             
+Net: padframe/gpio_loopback_zero[42]                                         |Net: gpio_loopback_one[4]                                                    
+  gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/one = 1                                           
+  openframe_project_wrapper/gpio_loopback_zero[42] = 1                       |                                                                             
                                                                              |                                                                             
 Net: padframe/gpio_loopback_one[24]                                          |Net: gpio_loopback_one[3]                                                    
   gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/one = 1                                           
   openframe_project_wrapper/gpio_loopback_one[24] = 1                        |                                                                             
                                                                              |                                                                             
-Net: padframe/gpio_loopback_zero[42]                                         |Net: gpio_loopback_one[2]                                                    
+Net: padframe/gpio_loopback_zero[13]                                         |Net: gpio_loopback_one[2]                                                    
   gf180mcu_ocd_io__fill10x/zero = 1                                          |  gf180mcu_ocd_io__fill10x/one = 1                                           
-  openframe_project_wrapper/gpio_loopback_zero[42] = 1                       |                                                                             
+  openframe_project_wrapper/gpio_loopback_zero[13] = 1                       |                                                                             
                                                                              |                                                                             
 Net: padframe/gpio_loopback_one[42]                                          |Net: gpio_loopback_one[1]                                                    
   gf180mcu_ocd_io__fill10x/one = 1                                           |  gf180mcu_ocd_io__fill10x/one = 1                                           

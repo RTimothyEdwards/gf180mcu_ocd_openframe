@@ -12,6 +12,10 @@ drc off
 crashbackups stop
 locking disable
 load openframe_project_wrapper
+# The DEF for the wrapper should not contain the example project
+select cell openframe_user_project_0
+delete
+select top cell
 extract path extfiles
 extract all
 select top cell

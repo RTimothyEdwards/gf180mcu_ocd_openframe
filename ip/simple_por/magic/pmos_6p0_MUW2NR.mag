@@ -1,0 +1,85 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1765308861
+<< error_p >>
+rect -160 509 -130 555
+rect 54 509 84 555
+<< nwell >>
+rect -480 -786 480 786
+<< hvpmos >>
+rect -162 -524 -52 476
+rect 52 -524 162 476
+<< mvpdiff >>
+rect -250 422 -162 476
+rect -250 -470 -237 422
+rect -191 -470 -162 422
+rect -250 -524 -162 -470
+rect -52 422 52 476
+rect -52 -470 -23 422
+rect 23 -470 52 422
+rect -52 -524 52 -470
+rect 162 422 250 476
+rect 162 -470 191 422
+rect 237 -470 250 422
+rect 162 -524 250 -470
+<< mvpdiffc >>
+rect -237 -470 -191 422
+rect -23 -470 23 422
+rect 191 -470 237 422
+<< mvnsubdiff >>
+rect -394 628 394 700
+rect -394 540 -322 628
+rect -394 -540 -381 540
+rect -335 -540 -322 540
+rect 322 540 394 628
+rect -394 -628 -322 -540
+rect 322 -540 335 540
+rect 381 -540 394 540
+rect 322 -628 394 -540
+rect -394 -641 394 -628
+rect -394 -687 -258 -641
+rect 258 -687 394 -641
+rect -394 -700 394 -687
+<< mvnsubdiffcont >>
+rect -381 -540 -335 540
+rect 335 -540 381 540
+rect -258 -687 258 -641
+<< polysilicon >>
+rect -162 555 -52 568
+rect -162 509 -130 555
+rect -84 509 -52 555
+rect -162 476 -52 509
+rect 52 555 162 568
+rect 52 509 84 555
+rect 130 509 162 555
+rect 52 476 162 509
+rect -162 -568 -52 -524
+rect 52 -568 162 -524
+<< polycontact >>
+rect -130 509 -84 555
+rect 84 509 130 555
+<< metal1 >>
+rect -381 641 381 687
+rect -381 540 -335 641
+rect -160 509 -130 555
+rect -84 509 -54 555
+rect 54 509 84 555
+rect 130 509 160 555
+rect 335 540 381 641
+rect -237 422 -191 474
+rect -237 -522 -191 -470
+rect -23 422 23 474
+rect -23 -522 23 -470
+rect 191 422 237 474
+rect 191 -522 237 -470
+rect -381 -641 -335 -540
+rect 335 -641 381 -540
+rect -381 -687 -258 -641
+rect 258 -687 381 -641
+<< properties >>
+string FIXED_BBOX -348 -664 348 664
+string GDS_END 16916
+string GDS_FILE ../gds/simple_por.gds.gz
+string GDS_START 10960
+<< end >>

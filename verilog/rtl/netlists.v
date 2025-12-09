@@ -26,6 +26,7 @@
 
 `define UNIT_DELAY #1
 `define USE_POWER_PINS
+`define OPENFRAME_IO_PADS 44
 
 /* Primitive devices from the PDK, used in verilog for LVS purposes */
 `include "primitives.v"

@@ -27,9 +27,6 @@
 
 // `default_nettype none
 
-// The openframe wrapper requires this definition
-`define HAS_USER_PROJECT
-
 // There are 44 GPIO pads in the openframe definition.  This
 // is fixed and corresponds to the standard pinout and
 // packaging for the Caravel harness chip.
@@ -82,26 +79,32 @@ module openframe_user_project (
 	assign resetb_pullup = resetb_loopback_one;
 	assign resetb_pulldown = resetb_loopback_zero;
 
-	// Ensure that all GPIO inputs are properly tied off
-	// When all GPIO inputs are set to zero, the GPIO is
-	// turned off.  Both input and output buffers are
-	// disabled, and no pullup/pulldown resistor is
-	// present.
+	//-----------------------------------------------------
+	// Instantiate the PicoRV32 "picosoc"
+	//-----------------------------------------------------
 
-	genvar i;
-	generate
-	for (i = 0; i < `OPENFRAME_IO_PADS; i = i + 1) begin
-		assign gpio_out[i] = gpio_loopback_zero[i];
-		assign gpio_oe[i] =  gpio_loopback_zero[i];
-		assign gpio_ie[i] =  gpio_loopback_zero[i];
-		assign gpio_schmitt[i] =  gpio_loopback_zero[i];
-		assign gpio_slew[i] =  gpio_loopback_zero[i];
-		assign gpio_pullup[i] =  gpio_loopback_zero[i];
-		assign gpio_pulldown[i] =  gpio_loopback_zero[i];
-		assign gpio_drive0[i] =  gpio_loopback_zero[i];
-		assign gpio_drive1[i] =  gpio_loopback_zero[i];
-	end
-	endgenerate
+	picosoc picosoc (
+	    `ifdef USE_POWER_PINS
+		.VPWR(vccd),		/* 3.3V domain only */
+		.VGND(vssd),
+	    `endif
+	    .porb(porb_l),		/* Power-on-reset (inverted)	*/
+	    .por(~porb_l),		/* Power-on-reset (non-inverted) */
+	    .resetb(resetb_core),	/* Master (pin) reset (inverted) */
+	    .mask_rev(mask_rev),	/* Mask revision (via programmed ROM) */
+	    .gpio_in(gpio_in),		/* Input from GPIO */
+	    .gpio_out(gpio_out),	/* Output to GPIO */
+	    .gpio_oe(gpio_oe),		/* GPIO output enable */
+	    .gpio_ie(gpio_ie),		/* GPIO input enable */
+	    .gpio_drive1_sel(gpio_drive1),	/* GPIO drive mode */
+	    .gpio_drive0_sel(gpio_drive0),	/* GPIO drive mode */
+	    .gpio_schmitt_sel(gpio_schmitt),	/* GPIO threshold */
+	    .gpio_slew_sel(gpio_slew),		/* GPIO slew rate */
+	    .gpio_pullup_sel(gpio_pullup),	/* GPIO pullup mode */
+	    .gpio_pulldown_sel(gpio_pulldown),	/* GPIO pulldown mode */
+	    .gpio_loopback_one(gpio_loopback_one),	/* Value 1 for loopback */
+	    .gpio_loopback_zero(gpio_loopback_zero)	/* Value 0 for loopback */
+	);
 
 endmodule
 // `default_nettype wire

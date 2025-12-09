@@ -1,0 +1,2180 @@
+VERSION 5.7 ;
+   NAMESCASESENSITIVE ON ;
+   DIVIDERCHAR "/" ;
+   BUSBITCHARS "()" ;
+   DESIGN openframe_project_wrapper ;
+   TECHNOLOGY gf180mcuD ;
+   UNITS DISTANCE MICRONS 1000 ;
+   DIEAREA ( 350085 350085 ) ( 3529915 4719915 ) ;
+
+VIAS 0 ;
+END VIAS
+
+COMPONENTS 0 ;
+END COMPONENTS
+
+PINS 720 ;
+   - gpio_oe[38] + NET gpio_oe[38]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1145320 350310 ) N ;
+   - gpio_out[38] + NET gpio_out[38]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1144590 350310 ) N ;
+   - gpio_slew[38] + NET gpio_slew[38]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1143860 350310 ) N ;
+   - gpio_ie[38] + NET gpio_ie[38]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1086575 350310 ) N ;
+   - gpio_pulldown[38] + NET gpio_pulldown[38]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1085520 350310 ) N ;
+   - gpio_ana[38] + NET gpio_ana[38]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1083720 350305 ) N ;
+   - gpio_pullup[38] + NET gpio_pullup[38]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1081155 350310 ) N ;
+   - gpio_drive1[38] + NET gpio_drive1[38]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1083010 350305 ) N ;
+   - gpio_drive0[38] + NET gpio_drive0[38]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1082300 350310 ) N ;
+   - gpio_schmitt[38] + NET gpio_schmitt[38]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1078550 350310 ) N ;
+   - gpio_in[38] + NET gpio_in[38]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1146050 350310 ) N ;
+   - gpio_schmitt[42] + NET gpio_schmitt[42]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2453550 350310 ) N ;
+   - gpio_pullup[42] + NET gpio_pullup[42]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2456155 350310 ) N ;
+   - gpio_drive0[42] + NET gpio_drive0[42]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2457300 350310 ) N ;
+   - gpio_drive1[42] + NET gpio_drive1[42]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2458010 350305 ) N ;
+   - gpio_ana[42] + NET gpio_ana[42]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2458720 350305 ) N ;
+   - gpio_pulldown[42] + NET gpio_pulldown[42]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2460520 350310 ) N ;
+   - gpio_slew[42] + NET gpio_slew[42]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2518860 350310 ) N ;
+   - gpio_schmitt[41] + NET gpio_schmitt[41]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2178550 350310 ) N ;
+   - gpio_pullup[41] + NET gpio_pullup[41]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2181155 350310 ) N ;
+   - gpio_drive0[41] + NET gpio_drive0[41]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2182300 350310 ) N ;
+   - gpio_drive1[41] + NET gpio_drive1[41]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2183010 350305 ) N ;
+   - gpio_ana[41] + NET gpio_ana[41]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2183720 350305 ) N ;
+   - gpio_pulldown[41] + NET gpio_pulldown[41]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2185520 350310 ) N ;
+   - gpio_slew[41] + NET gpio_slew[41]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2243860 350310 ) N ;
+   - gpio_schmitt[40] + NET gpio_schmitt[40]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1903550 350310 ) N ;
+   - gpio_pullup[40] + NET gpio_pullup[40]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1906155 350310 ) N ;
+   - gpio_drive0[40] + NET gpio_drive0[40]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1907300 350310 ) N ;
+   - gpio_drive1[40] + NET gpio_drive1[40]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1908010 350305 ) N ;
+   - gpio_ana[40] + NET gpio_ana[40]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1908720 350305 ) N ;
+   - gpio_pulldown[40] + NET gpio_pulldown[40]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1910520 350310 ) N ;
+   - gpio_ie[40] + NET gpio_ie[40]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1911575 350310 ) N ;
+   - gpio_slew[40] + NET gpio_slew[40]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1968860 350310 ) N ;
+   - gpio_out[40] + NET gpio_out[40]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1969590 350310 ) N ;
+   - gpio_schmitt[39] + NET gpio_schmitt[39]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1628550 350310 ) N ;
+   - gpio_pullup[39] + NET gpio_pullup[39]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1631155 350310 ) N ;
+   - gpio_drive0[39] + NET gpio_drive0[39]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1632300 350310 ) N ;
+   - gpio_drive1[39] + NET gpio_drive1[39]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1633010 350305 ) N ;
+   - gpio_ana[39] + NET gpio_ana[39]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1633720 350305 ) N ;
+   - gpio_pulldown[39] + NET gpio_pulldown[39]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1635520 350310 ) N ;
+   - gpio_ie[39] + NET gpio_ie[39]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1636575 350310 ) N ;
+   - gpio_slew[39] + NET gpio_slew[39]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1693860 350310 ) N ;
+   - gpio_out[39] + NET gpio_out[39]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1694590 350310 ) N ;
+   - gpio_oe[39] + NET gpio_oe[39]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1695320 350310 ) N ;
+   - gpio_in[39] + NET gpio_in[39]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1696050 350310 ) N ;
+   - gpio_oe[40] + NET gpio_oe[40]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1970320 350310 ) N ;
+   - gpio_in[40] + NET gpio_in[40]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1971050 350310 ) N ;
+   - gpio_ana[43] + NET gpio_ana[43]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2733720 350305 ) N ;
+   - gpio_ana[23] + NET gpio_ana[23]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 586280 4719690 ) N ;
+   - gpio_ana[22] + NET gpio_ana[22]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 861280 4719690 ) N ;
+   - gpio_ana[21] + NET gpio_ana[21]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1136280 4719690 ) N ;
+   - gpio_ana[20] + NET gpio_ana[20]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1411280 4719690 ) N ;
+   - gpio_ana[19] + NET gpio_ana[19]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1686280 4719690 ) N ;
+   - gpio_ana[18] + NET gpio_ana[18]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2236280 4719690 ) N ;
+   - gpio_ana[17] + NET gpio_ana[17]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2511280 4719690 ) N ;
+   - gpio_ana[16] + NET gpio_ana[16]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2786280 4719690 ) N ;
+   - gpio_ana[15] + NET gpio_ana[15]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 3336280 4719690 ) N ;
+   - gpio_in[23] + NET gpio_in[23]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 523950 4719690 ) N ;
+   - gpio_oe[23] + NET gpio_oe[23]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 524680 4719690 ) N ;
+   - gpio_out[23] + NET gpio_out[23]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 525410 4719690 ) N ;
+   - gpio_slew[23] + NET gpio_slew[23]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 526140 4719690 ) N ;
+   - gpio_ie[23] + NET gpio_ie[23]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 583425 4719690 ) N ;
+   - gpio_pulldown[23] + NET gpio_pulldown[23]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 584480 4719690 ) N ;
+   - gpio_drive1[23] + NET gpio_drive1[23]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 586990 4719690 ) N ;
+   - gpio_drive0[23] + NET gpio_drive0[23]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 587700 4719690 ) N ;
+   - gpio_pullup[23] + NET gpio_pullup[23]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 588845 4719690 ) N ;
+   - gpio_schmitt[23] + NET gpio_schmitt[23]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 591450 4719690 ) N ;
+   - gpio_in[22] + NET gpio_in[22]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 798950 4719690 ) N ;
+   - gpio_oe[22] + NET gpio_oe[22]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 799680 4719690 ) N ;
+   - gpio_out[22] + NET gpio_out[22]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 800410 4719690 ) N ;
+   - gpio_slew[22] + NET gpio_slew[22]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 801140 4719690 ) N ;
+   - gpio_ie[22] + NET gpio_ie[22]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 858425 4719690 ) N ;
+   - gpio_pulldown[22] + NET gpio_pulldown[22]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 859480 4719690 ) N ;
+   - gpio_drive1[22] + NET gpio_drive1[22]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 861990 4719690 ) N ;
+   - gpio_drive0[22] + NET gpio_drive0[22]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 862700 4719690 ) N ;
+   - gpio_pullup[22] + NET gpio_pullup[22]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 863845 4719690 ) N ;
+   - gpio_schmitt[22] + NET gpio_schmitt[22]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 866450 4719690 ) N ;
+   - gpio_in[21] + NET gpio_in[21]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1073950 4719690 ) N ;
+   - gpio_oe[21] + NET gpio_oe[21]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1074680 4719690 ) N ;
+   - gpio_out[21] + NET gpio_out[21]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1075410 4719690 ) N ;
+   - gpio_slew[21] + NET gpio_slew[21]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1076140 4719690 ) N ;
+   - gpio_ie[21] + NET gpio_ie[21]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1133425 4719690 ) N ;
+   - gpio_pulldown[21] + NET gpio_pulldown[21]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1134480 4719690 ) N ;
+   - gpio_drive1[21] + NET gpio_drive1[21]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1136990 4719690 ) N ;
+   - gpio_drive0[21] + NET gpio_drive0[21]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1137700 4719690 ) N ;
+   - gpio_pullup[21] + NET gpio_pullup[21]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1138845 4719690 ) N ;
+   - gpio_schmitt[21] + NET gpio_schmitt[21]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1141450 4719690 ) N ;
+   - gpio_in[20] + NET gpio_in[20]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1348950 4719690 ) N ;
+   - gpio_oe[20] + NET gpio_oe[20]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1349680 4719690 ) N ;
+   - gpio_out[20] + NET gpio_out[20]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1350410 4719690 ) N ;
+   - gpio_slew[20] + NET gpio_slew[20]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1351140 4719690 ) N ;
+   - gpio_ie[20] + NET gpio_ie[20]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1408425 4719690 ) N ;
+   - gpio_pulldown[20] + NET gpio_pulldown[20]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1409480 4719690 ) N ;
+   - gpio_drive1[20] + NET gpio_drive1[20]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1411990 4719690 ) N ;
+   - gpio_drive0[20] + NET gpio_drive0[20]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1412700 4719690 ) N ;
+   - gpio_pullup[20] + NET gpio_pullup[20]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1413845 4719690 ) N ;
+   - gpio_schmitt[20] + NET gpio_schmitt[20]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1416450 4719690 ) N ;
+   - gpio_in[19] + NET gpio_in[19]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1623950 4719690 ) N ;
+   - gpio_oe[19] + NET gpio_oe[19]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1624680 4719690 ) N ;
+   - gpio_out[19] + NET gpio_out[19]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1625410 4719690 ) N ;
+   - gpio_slew[19] + NET gpio_slew[19]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1626140 4719690 ) N ;
+   - gpio_ie[19] + NET gpio_ie[19]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1683425 4719690 ) N ;
+   - gpio_pulldown[19] + NET gpio_pulldown[19]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1684480 4719690 ) N ;
+   - gpio_drive1[19] + NET gpio_drive1[19]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1686990 4719690 ) N ;
+   - gpio_drive0[19] + NET gpio_drive0[19]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1687700 4719690 ) N ;
+   - gpio_pullup[19] + NET gpio_pullup[19]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1688845 4719690 ) N ;
+   - gpio_schmitt[19] + NET gpio_schmitt[19]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 1691450 4719690 ) N ;
+   - gpio_in[18] + NET gpio_in[18]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2173950 4719690 ) N ;
+   - gpio_oe[18] + NET gpio_oe[18]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2174680 4719690 ) N ;
+   - gpio_out[18] + NET gpio_out[18]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2175410 4719690 ) N ;
+   - gpio_slew[18] + NET gpio_slew[18]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2176140 4719690 ) N ;
+   - gpio_ie[18] + NET gpio_ie[18]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2233425 4719690 ) N ;
+   - gpio_pulldown[18] + NET gpio_pulldown[18]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2234480 4719690 ) N ;
+   - gpio_drive1[18] + NET gpio_drive1[18]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2236990 4719690 ) N ;
+   - gpio_drive0[18] + NET gpio_drive0[18]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2237700 4719690 ) N ;
+   - gpio_pullup[18] + NET gpio_pullup[18]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2238845 4719690 ) N ;
+   - gpio_schmitt[18] + NET gpio_schmitt[18]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2241450 4719690 ) N ;
+   - gpio_in[17] + NET gpio_in[17]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2448950 4719690 ) N ;
+   - gpio_oe[17] + NET gpio_oe[17]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2449680 4719690 ) N ;
+   - gpio_out[17] + NET gpio_out[17]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2450410 4719690 ) N ;
+   - gpio_slew[17] + NET gpio_slew[17]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2451140 4719690 ) N ;
+   - gpio_ie[17] + NET gpio_ie[17]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2508425 4719690 ) N ;
+   - gpio_pulldown[17] + NET gpio_pulldown[17]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2509480 4719690 ) N ;
+   - gpio_drive1[17] + NET gpio_drive1[17]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2511990 4719690 ) N ;
+   - gpio_drive0[17] + NET gpio_drive0[17]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2512700 4719690 ) N ;
+   - gpio_pullup[17] + NET gpio_pullup[17]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2513845 4719690 ) N ;
+   - gpio_schmitt[17] + NET gpio_schmitt[17]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2516450 4719690 ) N ;
+   - gpio_in[16] + NET gpio_in[16]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2723950 4719690 ) N ;
+   - gpio_oe[16] + NET gpio_oe[16]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2724680 4719690 ) N ;
+   - gpio_out[16] + NET gpio_out[16]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2725410 4719690 ) N ;
+   - gpio_slew[16] + NET gpio_slew[16]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2726140 4719690 ) N ;
+   - gpio_ie[16] + NET gpio_ie[16]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2783425 4719690 ) N ;
+   - gpio_pulldown[16] + NET gpio_pulldown[16]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2784480 4719690 ) N ;
+   - gpio_drive1[16] + NET gpio_drive1[16]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2786990 4719690 ) N ;
+   - gpio_drive0[16] + NET gpio_drive0[16]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2787700 4719690 ) N ;
+   - gpio_pullup[16] + NET gpio_pullup[16]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2788845 4719690 ) N ;
+   - gpio_schmitt[16] + NET gpio_schmitt[16]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2791450 4719690 ) N ;
+   - gpio_in[15] + NET gpio_in[15]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 3273950 4719690 ) N ;
+   - gpio_oe[15] + NET gpio_oe[15]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 3274680 4719690 ) N ;
+   - gpio_out[15] + NET gpio_out[15]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 3275410 4719690 ) N ;
+   - gpio_slew[15] + NET gpio_slew[15]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 3276140 4719690 ) N ;
+   - gpio_ie[15] + NET gpio_ie[15]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 3333425 4719690 ) N ;
+   - gpio_pulldown[15] + NET gpio_pulldown[15]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 3334480 4719690 ) N ;
+   - gpio_drive1[15] + NET gpio_drive1[15]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 3336990 4719690 ) N ;
+   - gpio_drive0[15] + NET gpio_drive0[15]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 3337700 4719690 ) N ;
+   - gpio_pullup[15] + NET gpio_pullup[15]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 3338845 4719690 ) N ;
+   - gpio_schmitt[15] + NET gpio_schmitt[15]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 3341450 4719690 ) N ;
+   - gpio_oe[43] + NET gpio_oe[43]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2795320 350310 ) N ;
+   - gpio_in[43] + NET gpio_in[43]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2796050 350310 ) N ;
+   - gpio_out[43] + NET gpio_out[43]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2794590 350310 ) N ;
+   - gpio_slew[43] + NET gpio_slew[43]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2793860 350310 ) N ;
+   - gpio_ie[43] + NET gpio_ie[43]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2736575 350310 ) N ;
+   - gpio_pulldown[43] + NET gpio_pulldown[43]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2735520 350310 ) N ;
+   - gpio_drive1[43] + NET gpio_drive1[43]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2733010 350305 ) N ;
+   - gpio_drive0[43] + NET gpio_drive0[43]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2732300 350310 ) N ;
+   - gpio_pullup[43] + NET gpio_pullup[43]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2731155 350310 ) N ;
+   - gpio_schmitt[43] + NET gpio_schmitt[43]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2728550 350310 ) N ;
+   - gpio_in[42] + NET gpio_in[42]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2521050 350310 ) N ;
+   - gpio_oe[42] + NET gpio_oe[42]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2520320 350310 ) N ;
+   - gpio_out[42] + NET gpio_out[42]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2519590 350310 ) N ;
+   - gpio_ie[42] + NET gpio_ie[42]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2461575 350310 ) N ;
+   - gpio_in[41] + NET gpio_in[41]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2246045 350310 ) N ;
+   - gpio_oe[41] + NET gpio_oe[41]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2245320 350310 ) N ;
+   - gpio_out[41] + NET gpio_out[41]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2244590 350310 ) N ;
+   - gpio_ie[41] + NET gpio_ie[41]
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 2186575 350310 ) N ;
+   - resetb_core + NET resetb_core
+     + PORT
+        + LAYER Metal2 ( -190 -690 ) ( 190 690 )        + PLACED ( 871050 350310 ) N ;
+   - gpio_in[1] + NET gpio_in[1]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529340 731050 ) N ;
+   - gpio_oe[1] + NET gpio_oe[1]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529340 730320 ) N ;
+   - gpio_out[1] + NET gpio_out[1]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529340 729590 ) N ;
+   - gpio_slew[1] + NET gpio_slew[1]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529340 728860 ) N ;
+   - gpio_ana[1] + NET gpio_ana[1]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 668720 ) N ;
+   - gpio_drive1[1] + NET gpio_drive1[1]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 668010 ) N ;
+   - gpio_ie[1] + NET gpio_ie[1]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 671575 ) N ;
+   - gpio_pulldown[1] + NET gpio_pulldown[1]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 670520 ) N ;
+   - gpio_drive0[1] + NET gpio_drive0[1]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 667300 ) N ;
+   - gpio_pullup[1] + NET gpio_pullup[1]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 666155 ) N ;
+   - gpio_schmitt[1] + NET gpio_schmitt[1]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 663550 ) N ;
+   - gpio_ana[14] + NET gpio_ana[14]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4538720 ) N ;
+   - gpio_ana[13] + NET gpio_ana[13]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4108720 ) N ;
+   - gpio_ana[12] + NET gpio_ana[12]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3678720 ) N ;
+   - gpio_ana[11] + NET gpio_ana[11]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3463720 ) N ;
+   - gpio_ana[10] + NET gpio_ana[10]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3248720 ) N ;
+   - gpio_ana[9] + NET gpio_ana[9]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3033720 ) N ;
+   - gpio_ana[8] + NET gpio_ana[8]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2818720 ) N ;
+   - gpio_ana[7] + NET gpio_ana[7]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2603720 ) N ;
+   - gpio_ana[6] + NET gpio_ana[6]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1743720 ) N ;
+   - gpio_ana[5] + NET gpio_ana[5]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1528720 ) N ;
+   - gpio_ana[4] + NET gpio_ana[4]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1313720 ) N ;
+   - gpio_ana[3] + NET gpio_ana[3]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1098720 ) N ;
+   - gpio_ana[2] + NET gpio_ana[2]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 883720 ) N ;
+   - gpio_ana[0] + NET gpio_ana[0]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 453720 ) N ;
+   - gpio_drive1[12] + NET gpio_drive1[12]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3678010 ) N ;
+   - gpio_drive0[12] + NET gpio_drive0[12]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3677300 ) N ;
+   - gpio_drive1[11] + NET gpio_drive1[11]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3463010 ) N ;
+   - gpio_drive0[11] + NET gpio_drive0[11]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3462300 ) N ;
+   - gpio_drive1[10] + NET gpio_drive1[10]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3248010 ) N ;
+   - gpio_drive0[10] + NET gpio_drive0[10]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3247300 ) N ;
+   - gpio_drive1[9] + NET gpio_drive1[9]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3033010 ) N ;
+   - gpio_drive0[9] + NET gpio_drive0[9]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3032300 ) N ;
+   - gpio_drive1[8] + NET gpio_drive1[8]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2818010 ) N ;
+   - gpio_drive0[8] + NET gpio_drive0[8]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2817300 ) N ;
+   - gpio_drive1[7] + NET gpio_drive1[7]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2603010 ) N ;
+   - gpio_drive0[7] + NET gpio_drive0[7]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2602300 ) N ;
+   - gpio_drive1[6] + NET gpio_drive1[6]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1743010 ) N ;
+   - gpio_drive0[6] + NET gpio_drive0[6]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1742300 ) N ;
+   - gpio_drive1[5] + NET gpio_drive1[5]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1528010 ) N ;
+   - gpio_drive0[5] + NET gpio_drive0[5]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1527300 ) N ;
+   - gpio_drive1[4] + NET gpio_drive1[4]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1313010 ) N ;
+   - gpio_drive0[4] + NET gpio_drive0[4]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1312300 ) N ;
+   - gpio_drive1[3] + NET gpio_drive1[3]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1098010 ) N ;
+   - gpio_drive0[3] + NET gpio_drive0[3]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1097300 ) N ;
+   - gpio_drive1[2] + NET gpio_drive1[2]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 883010 ) N ;
+   - gpio_drive0[2] + NET gpio_drive0[2]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 882300 ) N ;
+   - gpio_schmitt[13] + NET gpio_schmitt[13]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4103550 ) N ;
+   - gpio_pullup[13] + NET gpio_pullup[13]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4106155 ) N ;
+   - gpio_drive0[13] + NET gpio_drive0[13]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4107300 ) N ;
+   - gpio_drive1[13] + NET gpio_drive1[13]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4108010 ) N ;
+   - gpio_pulldown[13] + NET gpio_pulldown[13]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4110520 ) N ;
+   - gpio_ie[13] + NET gpio_ie[13]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4111575 ) N ;
+   - gpio_slew[13] + NET gpio_slew[13]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4168860 ) N ;
+   - gpio_out[13] + NET gpio_out[13]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4169590 ) N ;
+   - gpio_oe[13] + NET gpio_oe[13]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4170320 ) N ;
+   - gpio_in[13] + NET gpio_in[13]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4171050 ) N ;
+   - gpio_schmitt[12] + NET gpio_schmitt[12]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3673550 ) N ;
+   - gpio_pullup[12] + NET gpio_pullup[12]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3676155 ) N ;
+   - gpio_pulldown[12] + NET gpio_pulldown[12]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3680520 ) N ;
+   - gpio_ie[12] + NET gpio_ie[12]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3681575 ) N ;
+   - gpio_slew[12] + NET gpio_slew[12]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3738860 ) N ;
+   - gpio_out[12] + NET gpio_out[12]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3739590 ) N ;
+   - gpio_oe[12] + NET gpio_oe[12]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3740320 ) N ;
+   - gpio_in[12] + NET gpio_in[12]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3741050 ) N ;
+   - gpio_in[14] + NET gpio_in[14]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4601050 ) N ;
+   - gpio_oe[14] + NET gpio_oe[14]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4600320 ) N ;
+   - gpio_out[14] + NET gpio_out[14]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4599590 ) N ;
+   - gpio_slew[14] + NET gpio_slew[14]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4598860 ) N ;
+   - gpio_ie[14] + NET gpio_ie[14]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4541575 ) N ;
+   - gpio_pulldown[14] + NET gpio_pulldown[14]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4540520 ) N ;
+   - gpio_drive1[14] + NET gpio_drive1[14]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4538010 ) N ;
+   - gpio_drive0[14] + NET gpio_drive0[14]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4537300 ) N ;
+   - gpio_pullup[14] + NET gpio_pullup[14]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4536155 ) N ;
+   - gpio_schmitt[14] + NET gpio_schmitt[14]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 4533550 ) N ;
+   - gpio_schmitt[11] + NET gpio_schmitt[11]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3458550 ) N ;
+   - gpio_pullup[11] + NET gpio_pullup[11]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3461155 ) N ;
+   - gpio_pulldown[11] + NET gpio_pulldown[11]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3465520 ) N ;
+   - gpio_ie[11] + NET gpio_ie[11]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3466575 ) N ;
+   - gpio_slew[11] + NET gpio_slew[11]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3523860 ) N ;
+   - gpio_out[11] + NET gpio_out[11]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3524590 ) N ;
+   - gpio_oe[11] + NET gpio_oe[11]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3525320 ) N ;
+   - gpio_in[11] + NET gpio_in[11]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3526050 ) N ;
+   - gpio_schmitt[10] + NET gpio_schmitt[10]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3243550 ) N ;
+   - gpio_pullup[10] + NET gpio_pullup[10]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3246155 ) N ;
+   - gpio_pulldown[10] + NET gpio_pulldown[10]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3250520 ) N ;
+   - gpio_ie[10] + NET gpio_ie[10]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3251575 ) N ;
+   - gpio_slew[10] + NET gpio_slew[10]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3308860 ) N ;
+   - gpio_out[10] + NET gpio_out[10]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3309590 ) N ;
+   - gpio_oe[10] + NET gpio_oe[10]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3310320 ) N ;
+   - gpio_in[10] + NET gpio_in[10]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3311050 ) N ;
+   - gpio_schmitt[9] + NET gpio_schmitt[9]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3028550 ) N ;
+   - gpio_pullup[9] + NET gpio_pullup[9]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3031155 ) N ;
+   - gpio_pulldown[9] + NET gpio_pulldown[9]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3035520 ) N ;
+   - gpio_ie[9] + NET gpio_ie[9]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3036575 ) N ;
+   - gpio_slew[9] + NET gpio_slew[9]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3093860 ) N ;
+   - gpio_out[9] + NET gpio_out[9]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3094590 ) N ;
+   - gpio_oe[9] + NET gpio_oe[9]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3095320 ) N ;
+   - gpio_in[9] + NET gpio_in[9]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 3096050 ) N ;
+   - gpio_schmitt[8] + NET gpio_schmitt[8]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2813550 ) N ;
+   - gpio_pullup[8] + NET gpio_pullup[8]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2816155 ) N ;
+   - gpio_pulldown[8] + NET gpio_pulldown[8]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2820520 ) N ;
+   - gpio_ie[8] + NET gpio_ie[8]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2821575 ) N ;
+   - gpio_slew[8] + NET gpio_slew[8]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2878860 ) N ;
+   - gpio_out[8] + NET gpio_out[8]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2879590 ) N ;
+   - gpio_oe[8] + NET gpio_oe[8]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2880320 ) N ;
+   - gpio_in[8] + NET gpio_in[8]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2881050 ) N ;
+   - gpio_schmitt[7] + NET gpio_schmitt[7]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2598550 ) N ;
+   - gpio_pullup[7] + NET gpio_pullup[7]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2601155 ) N ;
+   - gpio_pulldown[7] + NET gpio_pulldown[7]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2605520 ) N ;
+   - gpio_ie[7] + NET gpio_ie[7]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2606575 ) N ;
+   - gpio_slew[7] + NET gpio_slew[7]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2663860 ) N ;
+   - gpio_out[7] + NET gpio_out[7]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2664590 ) N ;
+   - gpio_oe[7] + NET gpio_oe[7]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2665320 ) N ;
+   - gpio_in[7] + NET gpio_in[7]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 2666050 ) N ;
+   - gpio_schmitt[6] + NET gpio_schmitt[6]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1738550 ) N ;
+   - gpio_pullup[6] + NET gpio_pullup[6]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1741155 ) N ;
+   - gpio_pulldown[6] + NET gpio_pulldown[6]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1745520 ) N ;
+   - gpio_ie[6] + NET gpio_ie[6]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1746575 ) N ;
+   - gpio_slew[6] + NET gpio_slew[6]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1803860 ) N ;
+   - gpio_out[6] + NET gpio_out[6]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1804590 ) N ;
+   - gpio_oe[6] + NET gpio_oe[6]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1805320 ) N ;
+   - gpio_in[6] + NET gpio_in[6]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1806050 ) N ;
+   - gpio_schmitt[5] + NET gpio_schmitt[5]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1523550 ) N ;
+   - gpio_pullup[5] + NET gpio_pullup[5]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1526155 ) N ;
+   - gpio_pulldown[5] + NET gpio_pulldown[5]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1530520 ) N ;
+   - gpio_ie[5] + NET gpio_ie[5]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1531575 ) N ;
+   - gpio_slew[5] + NET gpio_slew[5]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1588860 ) N ;
+   - gpio_out[5] + NET gpio_out[5]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1589590 ) N ;
+   - gpio_oe[5] + NET gpio_oe[5]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1590320 ) N ;
+   - gpio_in[5] + NET gpio_in[5]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1591050 ) N ;
+   - gpio_schmitt[4] + NET gpio_schmitt[4]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1308550 ) N ;
+   - gpio_pullup[4] + NET gpio_pullup[4]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1311155 ) N ;
+   - gpio_pulldown[4] + NET gpio_pulldown[4]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1315520 ) N ;
+   - gpio_ie[4] + NET gpio_ie[4]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1316575 ) N ;
+   - gpio_slew[4] + NET gpio_slew[4]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1373860 ) N ;
+   - gpio_out[4] + NET gpio_out[4]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1374590 ) N ;
+   - gpio_oe[4] + NET gpio_oe[4]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1375320 ) N ;
+   - gpio_in[4] + NET gpio_in[4]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1376050 ) N ;
+   - gpio_schmitt[3] + NET gpio_schmitt[3]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1093550 ) N ;
+   - gpio_pullup[3] + NET gpio_pullup[3]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1096155 ) N ;
+   - gpio_pulldown[3] + NET gpio_pulldown[3]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1100520 ) N ;
+   - gpio_ie[3] + NET gpio_ie[3]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1101575 ) N ;
+   - gpio_slew[3] + NET gpio_slew[3]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1158860 ) N ;
+   - gpio_out[3] + NET gpio_out[3]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1159590 ) N ;
+   - gpio_oe[3] + NET gpio_oe[3]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1160320 ) N ;
+   - gpio_in[3] + NET gpio_in[3]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 1161050 ) N ;
+   - gpio_schmitt[2] + NET gpio_schmitt[2]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 878550 ) N ;
+   - gpio_pullup[2] + NET gpio_pullup[2]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 881155 ) N ;
+   - gpio_pulldown[2] + NET gpio_pulldown[2]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 885520 ) N ;
+   - gpio_ie[2] + NET gpio_ie[2]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 886575 ) N ;
+   - gpio_slew[2] + NET gpio_slew[2]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 943860 ) N ;
+   - gpio_out[2] + NET gpio_out[2]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 944590 ) N ;
+   - gpio_oe[2] + NET gpio_oe[2]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 945320 ) N ;
+   - gpio_in[2] + NET gpio_in[2]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 946050 ) N ;
+   - gpio_in[0] + NET gpio_in[0]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 516050 ) N ;
+   - gpio_oe[0] + NET gpio_oe[0]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 515320 ) N ;
+   - gpio_out[0] + NET gpio_out[0]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 514590 ) N ;
+   - gpio_slew[0] + NET gpio_slew[0]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 513860 ) N ;
+   - gpio_ie[0] + NET gpio_ie[0]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 456575 ) N ;
+   - gpio_pulldown[0] + NET gpio_pulldown[0]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 455520 ) N ;
+   - gpio_drive1[0] + NET gpio_drive1[0]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 453010 ) N ;
+   - gpio_drive0[0] + NET gpio_drive0[0]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 452300 ) N ;
+   - gpio_pullup[0] + NET gpio_pullup[0]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 451155 ) N ;
+   - gpio_schmitt[0] + NET gpio_schmitt[0]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 3529335 448550 ) N ;
+   - gpio_in[37] + NET gpio_in[37]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 838950 ) N ;
+   - gpio_oe[37] + NET gpio_oe[37]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 839680 ) N ;
+   - gpio_out[37] + NET gpio_out[37]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 840410 ) N ;
+   - gpio_slew[37] + NET gpio_slew[37]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 841140 ) N ;
+   - gpio_ie[37] + NET gpio_ie[37]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 898425 ) N ;
+   - gpio_pulldown[37] + NET gpio_pulldown[37]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 899480 ) N ;
+   - gpio_drive1[37] + NET gpio_drive1[37]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 901990 ) N ;
+   - gpio_drive0[37] + NET gpio_drive0[37]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 902700 ) N ;
+   - gpio_pullup[37] + NET gpio_pullup[37]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 903845 ) N ;
+   - gpio_schmitt[37] + NET gpio_schmitt[37]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 906450 ) N ;
+   - gpio_in[36] + NET gpio_in[36]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1043950 ) N ;
+   - gpio_oe[36] + NET gpio_oe[36]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1044680 ) N ;
+   - gpio_out[36] + NET gpio_out[36]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1045410 ) N ;
+   - gpio_slew[36] + NET gpio_slew[36]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1046140 ) N ;
+   - gpio_ie[36] + NET gpio_ie[36]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1103425 ) N ;
+   - gpio_pulldown[36] + NET gpio_pulldown[36]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1104480 ) N ;
+   - gpio_drive1[36] + NET gpio_drive1[36]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1106990 ) N ;
+   - gpio_drive0[36] + NET gpio_drive0[36]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1107700 ) N ;
+   - gpio_pullup[36] + NET gpio_pullup[36]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1108845 ) N ;
+   - gpio_schmitt[36] + NET gpio_schmitt[36]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1111450 ) N ;
+   - gpio_in[35] + NET gpio_in[35]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1248950 ) N ;
+   - gpio_oe[35] + NET gpio_oe[35]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1249680 ) N ;
+   - gpio_out[35] + NET gpio_out[35]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1250410 ) N ;
+   - gpio_slew[35] + NET gpio_slew[35]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1251140 ) N ;
+   - gpio_ie[35] + NET gpio_ie[35]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1308425 ) N ;
+   - gpio_pulldown[35] + NET gpio_pulldown[35]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1309480 ) N ;
+   - gpio_drive1[35] + NET gpio_drive1[35]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1311990 ) N ;
+   - gpio_drive0[35] + NET gpio_drive0[35]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1312700 ) N ;
+   - gpio_pullup[35] + NET gpio_pullup[35]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1313845 ) N ;
+   - gpio_schmitt[35] + NET gpio_schmitt[35]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1316450 ) N ;
+   - gpio_in[34] + NET gpio_in[34]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1453950 ) N ;
+   - gpio_ana[35] + NET gpio_ana[35]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1311280 ) N ;
+   - gpio_ana[36] + NET gpio_ana[36]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1106280 ) N ;
+   - gpio_ana[37] + NET gpio_ana[37]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 901280 ) N ;
+   - gpio_ana[34] + NET gpio_ana[34]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1516280 ) N ;
+   - gpio_ana[33] + NET gpio_ana[33]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1721280 ) N ;
+   - gpio_ana[32] + NET gpio_ana[32]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1926280 ) N ;
+   - gpio_ana[31] + NET gpio_ana[31]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2541280 ) N ;
+   - gpio_ana[30] + NET gpio_ana[30]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2746280 ) N ;
+   - gpio_ana[29] + NET gpio_ana[29]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2951280 ) N ;
+   - gpio_ana[28] + NET gpio_ana[28]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3156280 ) N ;
+   - gpio_ana[27] + NET gpio_ana[27]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3361280 ) N ;
+   - gpio_ana[26] + NET gpio_ana[26]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3566280 ) N ;
+   - gpio_ana[25] + NET gpio_ana[25]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3771280 ) N ;
+   - gpio_ana[24] + NET gpio_ana[24]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 4591280 ) N ;
+   - gpio_drive0[30] + NET gpio_drive0[30]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2747700 ) N ;
+   - gpio_drive1[30] + NET gpio_drive1[30]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2746990 ) N ;
+   - gpio_schmitt[24] + NET gpio_schmitt[24]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 4596450 ) N ;
+   - gpio_pullup[24] + NET gpio_pullup[24]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 4593845 ) N ;
+   - gpio_drive0[24] + NET gpio_drive0[24]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 4592700 ) N ;
+   - gpio_drive1[24] + NET gpio_drive1[24]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 4591990 ) N ;
+   - gpio_pulldown[24] + NET gpio_pulldown[24]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 4589480 ) N ;
+   - gpio_ie[24] + NET gpio_ie[24]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 4588425 ) N ;
+   - gpio_slew[24] + NET gpio_slew[24]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 4531140 ) N ;
+   - gpio_out[24] + NET gpio_out[24]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 4530410 ) N ;
+   - gpio_oe[24] + NET gpio_oe[24]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 4529680 ) N ;
+   - gpio_in[24] + NET gpio_in[24]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 4528950 ) N ;
+   - gpio_schmitt[25] + NET gpio_schmitt[25]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3776450 ) N ;
+   - gpio_pullup[25] + NET gpio_pullup[25]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3773845 ) N ;
+   - gpio_drive0[25] + NET gpio_drive0[25]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3772700 ) N ;
+   - gpio_drive1[25] + NET gpio_drive1[25]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3771990 ) N ;
+   - gpio_pulldown[25] + NET gpio_pulldown[25]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3769480 ) N ;
+   - gpio_ie[25] + NET gpio_ie[25]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3768425 ) N ;
+   - gpio_slew[25] + NET gpio_slew[25]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3711140 ) N ;
+   - gpio_out[25] + NET gpio_out[25]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3710410 ) N ;
+   - gpio_oe[25] + NET gpio_oe[25]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3709680 ) N ;
+   - gpio_in[25] + NET gpio_in[25]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3708950 ) N ;
+   - gpio_schmitt[26] + NET gpio_schmitt[26]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3571450 ) N ;
+   - gpio_pullup[26] + NET gpio_pullup[26]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3568845 ) N ;
+   - gpio_drive0[26] + NET gpio_drive0[26]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3567700 ) N ;
+   - gpio_drive1[26] + NET gpio_drive1[26]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3566990 ) N ;
+   - gpio_pulldown[26] + NET gpio_pulldown[26]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3564480 ) N ;
+   - gpio_ie[26] + NET gpio_ie[26]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3563425 ) N ;
+   - gpio_slew[26] + NET gpio_slew[26]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3506140 ) N ;
+   - gpio_out[26] + NET gpio_out[26]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3505410 ) N ;
+   - gpio_oe[26] + NET gpio_oe[26]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3504680 ) N ;
+   - gpio_in[26] + NET gpio_in[26]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3503950 ) N ;
+   - gpio_schmitt[27] + NET gpio_schmitt[27]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3366450 ) N ;
+   - gpio_pullup[27] + NET gpio_pullup[27]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3363845 ) N ;
+   - gpio_drive0[27] + NET gpio_drive0[27]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3362700 ) N ;
+   - gpio_drive1[27] + NET gpio_drive1[27]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3361990 ) N ;
+   - gpio_pulldown[27] + NET gpio_pulldown[27]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3359480 ) N ;
+   - gpio_ie[27] + NET gpio_ie[27]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3358425 ) N ;
+   - gpio_slew[27] + NET gpio_slew[27]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3301140 ) N ;
+   - gpio_out[27] + NET gpio_out[27]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3300410 ) N ;
+   - gpio_oe[27] + NET gpio_oe[27]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3299680 ) N ;
+   - gpio_in[27] + NET gpio_in[27]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3298950 ) N ;
+   - gpio_schmitt[28] + NET gpio_schmitt[28]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3161450 ) N ;
+   - gpio_pullup[28] + NET gpio_pullup[28]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3158845 ) N ;
+   - gpio_drive0[28] + NET gpio_drive0[28]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3157700 ) N ;
+   - gpio_drive1[28] + NET gpio_drive1[28]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3156990 ) N ;
+   - gpio_pulldown[28] + NET gpio_pulldown[28]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3154480 ) N ;
+   - gpio_ie[28] + NET gpio_ie[28]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3153425 ) N ;
+   - gpio_slew[28] + NET gpio_slew[28]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3096140 ) N ;
+   - gpio_out[28] + NET gpio_out[28]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3095410 ) N ;
+   - gpio_oe[28] + NET gpio_oe[28]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3094680 ) N ;
+   - gpio_in[28] + NET gpio_in[28]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 3093950 ) N ;
+   - gpio_schmitt[29] + NET gpio_schmitt[29]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2956450 ) N ;
+   - gpio_pullup[29] + NET gpio_pullup[29]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2953845 ) N ;
+   - gpio_drive0[29] + NET gpio_drive0[29]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2952700 ) N ;
+   - gpio_drive1[29] + NET gpio_drive1[29]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2951990 ) N ;
+   - gpio_pulldown[29] + NET gpio_pulldown[29]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2949480 ) N ;
+   - gpio_ie[29] + NET gpio_ie[29]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2948425 ) N ;
+   - gpio_slew[29] + NET gpio_slew[29]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2891140 ) N ;
+   - gpio_out[29] + NET gpio_out[29]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2890410 ) N ;
+   - gpio_oe[29] + NET gpio_oe[29]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2889680 ) N ;
+   - gpio_in[29] + NET gpio_in[29]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2888950 ) N ;
+   - gpio_schmitt[30] + NET gpio_schmitt[30]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2751450 ) N ;
+   - gpio_pullup[30] + NET gpio_pullup[30]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2748845 ) N ;
+   - gpio_pulldown[30] + NET gpio_pulldown[30]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2744480 ) N ;
+   - gpio_ie[30] + NET gpio_ie[30]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2743425 ) N ;
+   - gpio_slew[30] + NET gpio_slew[30]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2686140 ) N ;
+   - gpio_out[30] + NET gpio_out[30]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2685410 ) N ;
+   - gpio_oe[30] + NET gpio_oe[30]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2684680 ) N ;
+   - gpio_in[30] + NET gpio_in[30]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2683950 ) N ;
+   - gpio_schmitt[31] + NET gpio_schmitt[31]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2546450 ) N ;
+   - gpio_pullup[31] + NET gpio_pullup[31]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2543845 ) N ;
+   - gpio_drive0[31] + NET gpio_drive0[31]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2542700 ) N ;
+   - gpio_drive1[31] + NET gpio_drive1[31]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2541990 ) N ;
+   - gpio_pulldown[31] + NET gpio_pulldown[31]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2539480 ) N ;
+   - gpio_ie[31] + NET gpio_ie[31]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2538425 ) N ;
+   - gpio_slew[31] + NET gpio_slew[31]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2481140 ) N ;
+   - gpio_out[31] + NET gpio_out[31]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2480410 ) N ;
+   - gpio_oe[31] + NET gpio_oe[31]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2479680 ) N ;
+   - gpio_in[31] + NET gpio_in[31]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 2478950 ) N ;
+   - gpio_schmitt[32] + NET gpio_schmitt[32]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1931450 ) N ;
+   - gpio_pullup[32] + NET gpio_pullup[32]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1928845 ) N ;
+   - gpio_drive0[32] + NET gpio_drive0[32]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1927700 ) N ;
+   - gpio_drive1[32] + NET gpio_drive1[32]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1926990 ) N ;
+   - gpio_pulldown[32] + NET gpio_pulldown[32]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1924480 ) N ;
+   - gpio_ie[32] + NET gpio_ie[32]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1923425 ) N ;
+   - gpio_slew[32] + NET gpio_slew[32]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1866140 ) N ;
+   - gpio_out[32] + NET gpio_out[32]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1865410 ) N ;
+   - gpio_oe[32] + NET gpio_oe[32]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1864680 ) N ;
+   - gpio_in[32] + NET gpio_in[32]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1863950 ) N ;
+   - gpio_schmitt[33] + NET gpio_schmitt[33]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1726450 ) N ;
+   - gpio_pullup[33] + NET gpio_pullup[33]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1723845 ) N ;
+   - gpio_drive0[33] + NET gpio_drive0[33]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1722700 ) N ;
+   - gpio_drive1[33] + NET gpio_drive1[33]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1721990 ) N ;
+   - gpio_pulldown[33] + NET gpio_pulldown[33]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1719480 ) N ;
+   - gpio_ie[33] + NET gpio_ie[33]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1718425 ) N ;
+   - gpio_slew[33] + NET gpio_slew[33]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1661140 ) N ;
+   - gpio_out[33] + NET gpio_out[33]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1660410 ) N ;
+   - gpio_oe[33] + NET gpio_oe[33]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1659680 ) N ;
+   - gpio_in[33] + NET gpio_in[33]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1658950 ) N ;
+   - gpio_schmitt[34] + NET gpio_schmitt[34]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1521450 ) N ;
+   - gpio_pullup[34] + NET gpio_pullup[34]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1518845 ) N ;
+   - gpio_drive0[34] + NET gpio_drive0[34]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1517700 ) N ;
+   - gpio_drive1[34] + NET gpio_drive1[34]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1516990 ) N ;
+   - gpio_pulldown[34] + NET gpio_pulldown[34]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1514480 ) N ;
+   - gpio_ie[34] + NET gpio_ie[34]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1513425 ) N ;
+   - gpio_slew[34] + NET gpio_slew[34]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1456140 ) N ;
+   - gpio_out[34] + NET gpio_out[34]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1455410 ) N ;
+   - gpio_oe[34] + NET gpio_oe[34]
+     + PORT
+        + LAYER Metal3 ( -690 -190 ) ( 690 190 )        + PLACED ( 350665 1454680 ) N ;
+   - por_h + NET por_h
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2953725 350250 ) N ;
+   - porb_h + NET porb_h
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2956640 350250 ) N ;
+   - porb_l + NET porb_l
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2966280 350250 ) N ;
+   - mask_rev[1] + NET mask_rev[1]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2541640 350250 ) N ;
+   - mask_rev[2] + NET mask_rev[2]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2548725 350250 ) N ;
+   - mask_rev[3] + NET mask_rev[3]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2551640 350250 ) N ;
+   - mask_rev[4] + NET mask_rev[4]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2558725 350250 ) N ;
+   - mask_rev[5] + NET mask_rev[5]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2561640 350250 ) N ;
+   - mask_rev[6] + NET mask_rev[6]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2568725 350250 ) N ;
+   - mask_rev[7] + NET mask_rev[7]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2571640 350250 ) N ;
+   - mask_rev[8] + NET mask_rev[8]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2578725 350250 ) N ;
+   - mask_rev[9] + NET mask_rev[9]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2581640 350250 ) N ;
+   - mask_rev[10] + NET mask_rev[10]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2588725 350250 ) N ;
+   - mask_rev[11] + NET mask_rev[11]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2591640 350250 ) N ;
+   - mask_rev[12] + NET mask_rev[12]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2598725 350250 ) N ;
+   - mask_rev[13] + NET mask_rev[13]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2601640 350250 ) N ;
+   - mask_rev[14] + NET mask_rev[14]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2608725 350250 ) N ;
+   - mask_rev[15] + NET mask_rev[15]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2611640 350250 ) N ;
+   - mask_rev[16] + NET mask_rev[16]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2618725 350250 ) N ;
+   - mask_rev[17] + NET mask_rev[17]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2621640 350250 ) N ;
+   - mask_rev[18] + NET mask_rev[18]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2628725 350250 ) N ;
+   - mask_rev[19] + NET mask_rev[19]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2631640 350250 ) N ;
+   - mask_rev[20] + NET mask_rev[20]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2638725 350250 ) N ;
+   - mask_rev[21] + NET mask_rev[21]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2641640 350250 ) N ;
+   - mask_rev[22] + NET mask_rev[22]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2648725 350250 ) N ;
+   - mask_rev[23] + NET mask_rev[23]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2651640 350250 ) N ;
+   - mask_rev[24] + NET mask_rev[24]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2658725 350250 ) N ;
+   - mask_rev[25] + NET mask_rev[25]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2661640 350250 ) N ;
+   - mask_rev[26] + NET mask_rev[26]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2668725 350250 ) N ;
+   - mask_rev[27] + NET mask_rev[27]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2671640 350250 ) N ;
+   - mask_rev[28] + NET mask_rev[28]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2678725 350250 ) N ;
+   - mask_rev[29] + NET mask_rev[29]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2681640 350250 ) N ;
+   - mask_rev[30] + NET mask_rev[30]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2688725 350250 ) N ;
+   - mask_rev[31] + NET mask_rev[31]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2691640 350250 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -4750 -500 ) ( 4750 500 )        + PLACED ( 531110 350500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 543885 350500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 555735 350500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 569265 350500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 581115 350500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -4750 -500 ) ( 4750 500 )        + PLACED ( 593890 350500 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal4 ( -4750 -500 ) ( 4750 500 )        + PLACED ( 1356110 350500 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 1368885 350500 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 1380735 350500 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 1394265 350500 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 1406115 350500 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal4 ( -4750 -500 ) ( 4750 500 )        + PLACED ( 1418890 350500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -4750 -500 ) ( 4750 500 )        + PLACED ( 3006110 350500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 3018885 350500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 3030735 350500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 3044265 350500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 3056115 350500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -4750 -500 ) ( 4750 500 )        + PLACED ( 3068890 350500 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal4 ( -4750 -500 ) ( 4750 500 )        + PLACED ( 3281110 350495 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 3293885 350495 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 3305735 350495 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 3319265 350495 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 3331115 350495 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal4 ( -4750 -500 ) ( 4750 500 )        + PLACED ( 3343890 350495 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -4750 -500 ) ( 4750 500 )        + PLACED ( 1901110 4719500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 1913885 4719500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 1925735 4719500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 1939265 4719500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 1951115 4719500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -4750 -500 ) ( 4750 500 )        + PLACED ( 1963890 4719500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -4750 -500 ) ( 4750 500 )        + PLACED ( 3001110 4719500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 3013885 4719500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 3025735 4719500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 3039265 4719500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -5125 -500 ) ( 5125 500 )        + PLACED ( 3051115 4719500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal4 ( -4750 -500 ) ( 4750 500 )        + PLACED ( 3063890 4719500 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 3529325 1956110 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 3529325 1968885 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 3529325 1980735 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 3529325 1994265 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 3529325 2006115 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 3529325 2018890 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 3529325 2171110 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 3529325 2183885 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 3529325 2195735 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 3529325 2209265 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 3529325 2221115 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 3529325 2233890 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 3529325 2386110 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 3529325 2398885 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 3529325 2410735 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 3529325 2424265 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 3529325 2436115 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 3529325 2448890 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -695 -4870 ) ( 695 4870 )        + PLACED ( 3529325 3891110 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 3529325 3903885 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -685 -5185 ) ( 685 5185 )        + PLACED ( 3529325 3915735 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 3529325 3929265 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -685 -5185 ) ( 685 5185 )        + PLACED ( 3529325 3941115 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 3529325 3953890 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -685 -4810 ) ( 685 4810 )        + PLACED ( 3529325 4321110 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 3529325 4333885 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -685 -5185 ) ( 685 5185 )        + PLACED ( 3529325 4345735 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 3529325 4359265 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -685 -5185 ) ( 685 5185 )        + PLACED ( 3529325 4371115 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 3529325 4383890 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 350675 431110 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -685 -5185 ) ( 685 5185 )        + PLACED ( 350675 443885 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 455735 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 469265 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -685 -5185 ) ( 685 5185 )        + PLACED ( 350675 481115 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 350675 493890 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 350675 636110 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -685 -5185 ) ( 685 5185 )        + PLACED ( 350675 648885 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 660735 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 674265 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -685 -5185 ) ( 685 5185 )        + PLACED ( 350675 686115 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 350675 698890 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 350675 2071110 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal5 ( -685 -5185 ) ( 685 5185 )        + PLACED ( 350675 2083885 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 2095735 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 2109265 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal5 ( -685 -5185 ) ( 685 5185 )        + PLACED ( 350675 2121115 ) N ;
+   - vssd + NET vssd
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 350675 2133890 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 350675 2276110 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 2288885 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 2300735 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 2314265 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 2326115 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 350675 2338890 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 350675 3916115 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 3928890 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 3940740 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 3954270 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 3966120 ) N ;
+   - vssio + NET vssio
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 350675 3978895 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 350675 4121110 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 4133885 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 4145735 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 4159265 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 4171115 ) N ;
+   - vddio + NET vddio
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 350675 4183890 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 350675 4326110 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 4338885 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 4350735 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 4364265 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -675 -5125 ) ( 675 5125 )        + PLACED ( 350675 4376115 ) N ;
+   - vccd + NET vccd
+     + PORT
+        + LAYER Metal5 ( -675 -4750 ) ( 675 4750 )        + PLACED ( 350675 4388890 ) N ;
+   - resetb_pulldown + NET resetb_pulldown
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 810520 350250 ) N ;
+   - gpio_loopback_zero[11] + NET gpio_loopback_zero[11]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 3533920 ) N ;
+   - gpio_loopback_one[11] + NET gpio_loopback_one[11]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 3532980 ) N ;
+   - gpio_loopback_zero[0] + NET gpio_loopback_zero[0]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 523920 ) N ;
+   - gpio_loopback_one[0] + NET gpio_loopback_one[0]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 522980 ) N ;
+   - gpio_loopback_one[1] + NET gpio_loopback_one[1]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 737980 ) N ;
+   - gpio_loopback_zero[1] + NET gpio_loopback_zero[1]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 738920 ) N ;
+   - gpio_loopback_one[2] + NET gpio_loopback_one[2]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 952980 ) N ;
+   - gpio_loopback_zero[2] + NET gpio_loopback_zero[2]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 953920 ) N ;
+   - gpio_loopback_zero[3] + NET gpio_loopback_zero[3]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 1168920 ) N ;
+   - gpio_loopback_one[3] + NET gpio_loopback_one[3]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 1167980 ) N ;
+   - gpio_loopback_zero[4] + NET gpio_loopback_zero[4]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 1383920 ) N ;
+   - gpio_loopback_one[4] + NET gpio_loopback_one[4]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 1382980 ) N ;
+   - gpio_loopback_one[5] + NET gpio_loopback_one[5]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 1597980 ) N ;
+   - gpio_loopback_zero[5] + NET gpio_loopback_zero[5]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 1598920 ) N ;
+   - gpio_loopback_one[6] + NET gpio_loopback_one[6]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 1812980 ) N ;
+   - gpio_loopback_zero[6] + NET gpio_loopback_zero[6]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 1813920 ) N ;
+   - gpio_loopback_one[7] + NET gpio_loopback_one[7]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 2672980 ) N ;
+   - gpio_loopback_zero[7] + NET gpio_loopback_zero[7]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 2673920 ) N ;
+   - gpio_loopback_one[8] + NET gpio_loopback_one[8]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 2887980 ) N ;
+   - gpio_loopback_zero[8] + NET gpio_loopback_zero[8]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 2888920 ) N ;
+   - gpio_loopback_one[9] + NET gpio_loopback_one[9]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 3102980 ) N ;
+   - gpio_loopback_zero[9] + NET gpio_loopback_zero[9]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 3103920 ) N ;
+   - gpio_loopback_one[10] + NET gpio_loopback_one[10]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 3317980 ) N ;
+   - gpio_loopback_zero[10] + NET gpio_loopback_zero[10]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 3318920 ) N ;
+   - gpio_loopback_zero[12] + NET gpio_loopback_zero[12]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 3748920 ) N ;
+   - gpio_loopback_one[12] + NET gpio_loopback_one[12]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 3747980 ) N ;
+   - gpio_loopback_zero[13] + NET gpio_loopback_zero[13]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 4178920 ) N ;
+   - gpio_loopback_one[13] + NET gpio_loopback_one[13]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 4177980 ) N ;
+   - gpio_loopback_zero[14] + NET gpio_loopback_zero[14]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 4608920 ) N ;
+   - gpio_loopback_one[14] + NET gpio_loopback_one[14]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 3529395 4607980 ) N ;
+   - gpio_loopback_zero[15] + NET gpio_loopback_zero[15]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 3266080 4719750 ) N ;
+   - gpio_loopback_one[15] + NET gpio_loopback_one[15]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 3267020 4719750 ) N ;
+   - gpio_loopback_one[16] + NET gpio_loopback_one[16]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2717020 4719750 ) N ;
+   - gpio_loopback_zero[16] + NET gpio_loopback_zero[16]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2716080 4719750 ) N ;
+   - gpio_loopback_zero[17] + NET gpio_loopback_zero[17]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2441080 4719750 ) N ;
+   - gpio_loopback_one[17] + NET gpio_loopback_one[17]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2442020 4719750 ) N ;
+   - gpio_loopback_zero[18] + NET gpio_loopback_zero[18]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2166080 4719750 ) N ;
+   - gpio_loopback_one[18] + NET gpio_loopback_one[18]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2167020 4719750 ) N ;
+   - gpio_loopback_one[19] + NET gpio_loopback_one[19]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 1617020 4719750 ) N ;
+   - gpio_loopback_zero[19] + NET gpio_loopback_zero[19]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 1616080 4719750 ) N ;
+   - gpio_loopback_zero[20] + NET gpio_loopback_zero[20]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 1341080 4719750 ) N ;
+   - gpio_loopback_one[20] + NET gpio_loopback_one[20]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 1342020 4719750 ) N ;
+   - gpio_loopback_zero[21] + NET gpio_loopback_zero[21]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 1066080 4719750 ) N ;
+   - gpio_loopback_one[21] + NET gpio_loopback_one[21]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 1067020 4719750 ) N ;
+   - gpio_loopback_zero[22] + NET gpio_loopback_zero[22]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 791080 4719750 ) N ;
+   - gpio_loopback_one[22] + NET gpio_loopback_one[22]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 792020 4719750 ) N ;
+   - gpio_loopback_zero[23] + NET gpio_loopback_zero[23]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 516080 4719750 ) N ;
+   - gpio_loopback_one[23] + NET gpio_loopback_one[23]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 517020 4719750 ) N ;
+   - gpio_loopback_zero[24] + NET gpio_loopback_zero[24]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 4521080 ) N ;
+   - gpio_loopback_one[24] + NET gpio_loopback_one[24]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 4522020 ) N ;
+   - gpio_loopback_zero[25] + NET gpio_loopback_zero[25]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 3701080 ) N ;
+   - gpio_loopback_one[25] + NET gpio_loopback_one[25]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 3702020 ) N ;
+   - gpio_loopback_zero[26] + NET gpio_loopback_zero[26]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 3496080 ) N ;
+   - gpio_loopback_one[26] + NET gpio_loopback_one[26]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 3497020 ) N ;
+   - gpio_loopback_zero[27] + NET gpio_loopback_zero[27]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 3291080 ) N ;
+   - gpio_loopback_one[27] + NET gpio_loopback_one[27]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 3292020 ) N ;
+   - gpio_loopback_zero[28] + NET gpio_loopback_zero[28]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 3086080 ) N ;
+   - gpio_loopback_one[28] + NET gpio_loopback_one[28]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 3087020 ) N ;
+   - gpio_loopback_zero[29] + NET gpio_loopback_zero[29]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 2881080 ) N ;
+   - gpio_loopback_one[29] + NET gpio_loopback_one[29]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 2882020 ) N ;
+   - gpio_loopback_zero[30] + NET gpio_loopback_zero[30]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 2676080 ) N ;
+   - gpio_loopback_one[30] + NET gpio_loopback_one[30]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 2677020 ) N ;
+   - gpio_loopback_zero[31] + NET gpio_loopback_zero[31]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 2471080 ) N ;
+   - gpio_loopback_one[31] + NET gpio_loopback_one[31]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 2472020 ) N ;
+   - gpio_loopback_zero[32] + NET gpio_loopback_zero[32]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 1856080 ) N ;
+   - gpio_loopback_one[32] + NET gpio_loopback_one[32]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 1857020 ) N ;
+   - gpio_loopback_zero[33] + NET gpio_loopback_zero[33]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 1651080 ) N ;
+   - gpio_loopback_one[33] + NET gpio_loopback_one[33]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 1652020 ) N ;
+   - gpio_loopback_zero[34] + NET gpio_loopback_zero[34]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 1446080 ) N ;
+   - gpio_loopback_one[34] + NET gpio_loopback_one[34]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 1447020 ) N ;
+   - gpio_loopback_zero[35] + NET gpio_loopback_zero[35]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 1241080 ) N ;
+   - gpio_loopback_zero[36] + NET gpio_loopback_zero[36]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 1036080 ) N ;
+   - gpio_loopback_one[36] + NET gpio_loopback_one[36]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 1037020 ) N ;
+   - gpio_loopback_zero[37] + NET gpio_loopback_zero[37]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 831080 ) N ;
+   - gpio_loopback_one[37] + NET gpio_loopback_one[37]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 832020 ) N ;
+   - resetb_loopback_zero + NET resetb_loopback_zero
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 796080 350250 ) N ;
+   - resetb_loopback_one + NET resetb_loopback_one
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 797020 350250 ) N ;
+   - gpio_loopback_zero[38] + NET gpio_loopback_zero[38]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 1153920 350250 ) N ;
+   - gpio_loopback_one[38] + NET gpio_loopback_one[38]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 1152980 350250 ) N ;
+   - gpio_loopback_zero[39] + NET gpio_loopback_zero[39]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 1703920 350250 ) N ;
+   - gpio_loopback_one[39] + NET gpio_loopback_one[39]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 1702980 350250 ) N ;
+   - gpio_loopback_zero[40] + NET gpio_loopback_zero[40]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 1978920 350250 ) N ;
+   - gpio_loopback_one[40] + NET gpio_loopback_one[40]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 1977980 350250 ) N ;
+   - gpio_loopback_zero[41] + NET gpio_loopback_zero[41]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2253920 350250 ) N ;
+   - gpio_loopback_one[41] + NET gpio_loopback_one[41]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2252980 350250 ) N ;
+   - gpio_loopback_zero[42] + NET gpio_loopback_zero[42]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2528920 350250 ) N ;
+   - gpio_loopback_one[42] + NET gpio_loopback_one[42]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2527980 350250 ) N ;
+   - gpio_loopback_zero[43] + NET gpio_loopback_zero[43]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2803920 350250 ) N ;
+   - gpio_loopback_one[43] + NET gpio_loopback_one[43]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2802980 350250 ) N ;
+   - gpio_loopback_one[35] + NET gpio_loopback_one[35]
+     + PORT
+        + LAYER Metal3 ( -750 -190 ) ( 750 190 )        + PLACED ( 350605 1242020 ) N ;
+   - resetb_pullup + NET resetb_pullup
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 806160 350250 ) N ;
+   - mask_rev[0] + NET mask_rev[0]
+     + PORT
+        + LAYER Metal2 ( -190 -750 ) ( 190 750 )        + PLACED ( 2538725 350250 ) N ;
+END PINS
+
+END DESIGN
+

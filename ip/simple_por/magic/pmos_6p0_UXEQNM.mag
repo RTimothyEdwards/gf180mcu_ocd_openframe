@@ -1,0 +1,63 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1765308861
+<< error_p >>
+rect -58 -155 -28 -109
+<< nwell >>
+rect -378 -386 368 386
+<< hvpmos >>
+rect -60 -76 50 124
+<< mvpdiff >>
+rect -148 94 -60 124
+rect -148 -46 -135 94
+rect -89 -46 -60 94
+rect -148 -76 -60 -46
+rect 50 94 138 124
+rect 50 -46 79 94
+rect 125 -46 138 94
+rect 50 -76 138 -46
+<< mvpdiffc >>
+rect -135 -46 -89 94
+rect 79 -46 125 94
+<< mvnsubdiff >>
+rect -292 228 282 300
+rect -292 164 -220 228
+rect -292 -164 -279 164
+rect -233 -164 -220 164
+rect 210 164 282 228
+rect -292 -228 -220 -164
+rect 210 -164 223 164
+rect 269 -164 282 164
+rect 210 -228 282 -164
+rect -292 -300 282 -228
+<< mvnsubdiffcont >>
+rect -279 -164 -233 164
+rect 223 -164 269 164
+<< polysilicon >>
+rect -60 124 50 168
+rect -60 -109 50 -76
+rect -60 -155 -28 -109
+rect 18 -155 50 -109
+rect -60 -168 50 -155
+<< polycontact >>
+rect -28 -155 18 -109
+<< metal1 >>
+rect -279 241 269 287
+rect -279 164 -233 241
+rect 223 164 269 241
+rect -135 94 -89 122
+rect -135 -74 -89 -46
+rect 79 94 125 122
+rect 79 -74 125 -46
+rect -58 -155 -28 -109
+rect 18 -155 48 -109
+rect -279 -241 -233 -164
+rect 223 -241 269 -164
+rect -279 -287 269 -241
+<< properties >>
+string FIXED_BBOX -246 -264 246 264
+string GDS_END 26636
+string GDS_FILE ../gds/simple_por.gds.gz
+string GDS_START 24072
+<< end >>

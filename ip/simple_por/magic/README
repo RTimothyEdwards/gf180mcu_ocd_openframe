@@ -1,0 +1,7 @@
+This is a regeneration of the magic files for the simple_por
+from the GDS as a "readonly" file.  The reason is that it
+is the only cell in the caravel_openframe top level that is
+not a library cell of some kind, so making it a read-only
+library cell allows the top level cell to be generated
+without hierarchical adjustments by magic, which greatly
+speeds up the time to write the final GDS file.

@@ -1,0 +1,5 @@
+The ring oscillator is copied into ip/ because
+it needs to be manually generated, as the delay
+stages cannot be left to the synthesis flow's
+placement and routing, or the delays are going
+to be highly variable.

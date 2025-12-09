@@ -1,0 +1,19 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1765308861
+<< metal1 >>
+rect -90 200 -38 240
+rect -90 -99 -38 -60
+<< via1 >>
+rect -90 -60 -38 200
+<< metal2 >>
+rect -92 200 -36 239
+rect -92 -60 -90 200
+rect -38 -60 -36 200
+rect -92 -99 -36 -60
+<< properties >>
+string GDS_END 80466
+string GDS_FILE ../gds/simple_por.gds.gz
+string GDS_START 80142
+<< end >>

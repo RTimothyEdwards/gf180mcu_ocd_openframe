@@ -1,0 +1,36 @@
+magic
+tech gf180mcuD
+magscale 1 5
+timestamp 1765308861
+<< mimcap >>
+rect -550 432 450 500
+rect -550 -432 -482 432
+rect 382 -432 450 432
+rect -550 -500 450 -432
+<< mimcapcontact >>
+rect -482 -432 382 432
+<< metal4 >>
+rect -610 508 610 560
+rect -610 500 543 508
+rect -610 -500 -550 500
+rect 450 -500 543 500
+rect -610 -508 543 -500
+rect 571 -508 610 508
+rect -610 -560 610 -508
+<< via4 >>
+rect 543 -508 571 508
+<< metal5 >>
+rect 504 508 610 547
+rect -550 432 450 500
+rect -550 -432 -482 432
+rect 382 -432 450 432
+rect -550 -500 450 -432
+rect 504 -508 543 508
+rect 571 -508 610 508
+rect 504 -547 610 -508
+<< properties >>
+string FIXED_BBOX -590 -540 490 540
+string GDS_END 67974
+string GDS_FILE ../gds/simple_por.gds.gz
+string GDS_START 57026
+<< end >>

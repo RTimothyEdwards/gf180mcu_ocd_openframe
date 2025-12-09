@@ -267,27 +267,27 @@ if __name__ == '__main__':
         yurint = yint + 30
  
         # Get the values for the corner coordinates in magic internal units
-        xlli = xllint * 2
-        ylli = yllint * 2
-        xuri = xurint * 2
-        yuri = yurint * 2
+        xlli = xllint
+        ylli = yllint
+        xuri = xurint
+        yuri = yurint
 
         viaoldposdata = f"rect {xlli} {ylli} {xuri} {yuri}"
 
         # For "one" bits, the X position is moved 1.94 microns to the left
-        newxllint = xllint - 388
-        newxurint = xurint - 388
+        newxllint = xllint - 194
+        newxurint = xurint - 194
 
         # Get the values for the new corner coordinates in magic internal units
-        newxlli = newxllint * 2
-        newxuri = newxurint * 2
+        newxlli = newxllint
+        newxuri = newxurint
 
         vianewposdata = f"rect {newxlli} {ylli} {newxuri} {yuri}"
 
         # Diagnostic
         if debugmode:
             print('Bit ' + str(i) + ':')
-            print('Via position ({0:3.2f}, {1:3.2f}) to ({2:3.2f}, {3:3.2f})'.format(xllum, yllum, xurum, yurum))
+            print('Via position ({0:3.2f}, {1:3.2f}) to ({2:3.2f}, {3:3.2f})'.format(xllint, yllint, xurint, yurint))
             print('Old string = "' + viaoldposdata + '"')
             print('New string = "' + vianewposdata + '"')
 

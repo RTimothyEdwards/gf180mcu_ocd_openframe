@@ -12,6 +12,9 @@ drc off
 crashbackups stop
 locking disable
 load openframe_project_wrapper
+# Remove the existing user project
+select cell openframe_user_project_0
+delete
 select top cell
 lef write -hide
 quit -noprompt

@@ -1,0 +1,98 @@
+library(ring_osc2x13) {
+	delay_model : "table_lookup";
+	library_features(report_delay_calculation, report_power_calculation);
+
+	technology ("cmos");
+
+	capacitive_load_unit (1.0, "pf");
+	current_unit : "1mA";
+	leakage_power_unit : "1nW";
+	time_unit : "1ns";
+	voltage_unit : "1V";
+	pulling_resistance_unit : "1ohm";
+
+	operating_conditions("tt_025C_3v30") {
+		process : 1.0;
+		temperature : 25.0;
+		voltage : 3.3;
+		tree_type : "balanced_tree";
+		process_corner : "Typical";
+	}
+	default_operating_conditions : "tt_025C_3v30";
+	nom_process : 1.0;
+	nom_temperature : 25.0;
+	nom_voltage : 3.3;
+
+	voltage_map (vdd, 3.3);
+	voltage_map (vss, 0);
+
+	input_threshold_pct_fall : 50.0;
+	input_threshold_pct_rise : 50.0;
+	output_threshold_pct_fall : 50.0;
+	output_threshold_pct_rise : 50.0;
+	slew_derate_from_library : 0.5;
+	slew_lower_threshold_pct_fall : 30.0;
+	slew_lower_threshold_pct_rise : 30.0;
+	slew_upper_threshold_pct_fall : 70.0;
+	slew_upper_threshold_pct_rise : 70.0;
+
+	default_cell_leakage_power : 0;
+	default_fanout_load : 1;
+	default_inout_pin_cap : 0;
+	default_input_pin_cap : 0;
+	default_max_transition : 1.5;
+	default_output_pin_cap : 0;
+	default_arc_mode : "worst_edges";
+	default_constraint_arc_mode : "worst";
+	default_output_pin_cap : 0;
+
+	in_place_swap_mode : "match_footprint";
+
+	type (clockp_bus) {
+		base_type : array;
+		data_type : bit;
+		bit_width : 2;
+		bit_from  : 1;
+		bit_to    : 0;
+		downto	  : true;
+	}
+
+	type (trim_bus) {
+		base_type : array;
+		data_type : bit;
+		bit_width : 26;
+		bit_from  : 25;
+		bit_to    : 0;
+		downto	  : true;
+	}
+
+        cell (ring_osc2x13) {
+                cell_footprint : ring_osc2x13;
+                area: 2.195200;
+
+		pg_pin(vdd) {
+			voltage_name : vdd;
+			pg_type : primary_power;
+			pg_type : primary_power;
+		}
+
+		pg_pin(vss) {
+			voltage_name : vss;
+			pg_type : primary_ground;
+		}
+
+		pin (reset) {
+		   direction	: input;
+		}
+
+		bus (trim) {
+		   bus_type	: trim_bus;
+		   direction	: input;
+		}
+
+		bus (clockp) {
+		   bus_type	: clockp_bus;
+		   direction	: output;
+		}
+	}
+}
