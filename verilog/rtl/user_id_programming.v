@@ -69,9 +69,9 @@ module user_id_programming #(
     assign mask_rev = user_proj_id_low;
 
 `ifdef LVS
-    /* Enumerate the decap cells for LVS only */
+    /* Enumerate the fillcap cells for LVS only */
 
-    gf180mcu_as_sc_mcu7t3v3__decap_4 user_id_decap [23:0] (
+    gf180mcu_as_sc_mcu7t3v3__fillcap_4 user_id_fillcap [23:0] (
     `ifdef USE_POWER_PINS
             .VDD(VDD),
             .VSS(VSS),

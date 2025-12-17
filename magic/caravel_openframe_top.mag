@@ -1,16 +1,16 @@
 magic
 tech gf180mcuD
-timestamp 1765309110
+timestamp 1765936290
 use caravel_openframe  caravel_openframe_0
-timestamp 1765309110
+timestamp 1765936290
 transform 1 0 520 0 1 520
 box 0 0 77600 101400
 use gf180mcu_ws_ip__id  gf180mcu_ws_ip__id_0 ../ip/wafer_space/magic
-timestamp 1765306512
+timestamp 1765407047
 transform 1 0 520 0 1 520
 box 0 0 2856 2856
 use gf180mcu_ws_ip__logo  gf180mcu_ws_ip__logo_0 ../ip/wafer_space/magic
-timestamp 1765306512
+timestamp 1765407047
 transform 1 0 75255 0 1 99055
 box 0 0 2865 2865
 use sealring  sealring_0 ../ip/wafer_space/magic

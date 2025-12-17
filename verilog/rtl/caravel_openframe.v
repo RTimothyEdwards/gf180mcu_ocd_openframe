@@ -111,6 +111,8 @@ module caravel_openframe (
 	// reset at 3.3V.
 
 	wire resetb_l;
+	wire resetb_loopback_one, resetb_loopback_zero;
+	wire resetb_pullup, resetb_pulldown;
 
 	// Mask revision:  Output from the padframe, exporting the 32-bit
 	// user ID value.
@@ -140,6 +142,10 @@ module caravel_openframe (
 		.por_h(por_h),
 		.resetb_core(resetb_l),
 		.mask_rev(mask_rev),
+		.resetb_pullup(resetb_pullup),
+		.resetb_pulldown(resetb_pulldown),
+		.resetb_loopback_zero(resetb_loopback_zero),
+		.resetb_loopback_one(resetb_loopback_one),
 
 		.gpio_in(gpio_in),
 		.gpio_out(gpio_out),
@@ -175,6 +181,10 @@ module caravel_openframe (
 		.por_h(por_h),
 		.porb_l(porb_l),
 		.mask_rev(mask_rev),
+		.resetb_loopback_zero(resetb_loopback_zero),
+		.resetb_loopback_one(resetb_loopback_one),
+		.resetb_pullup(resetb_pullup),
+		.resetb_pulldown(resetb_pulldown),
 		
 		// User project IOs
 		.gpio_in(gpio_in),
@@ -187,7 +197,12 @@ module caravel_openframe (
 		.gpio_pullup(gpio_pullup),
 		.gpio_pulldown(gpio_pulldown),
 		.gpio_drive0(gpio_drive0),
-		.gpio_drive1(gpio_drive1)
+		.gpio_drive1(gpio_drive1),
+
+		// The local loopbacks should not necessarily belong
+		// to the wrapper but they can be used.
+		.gpio_loopback_zero(gpio_loopback_zero),
+		.gpio_loopback_one(gpio_loopback_one)
 	);
 
 	/*--------------------------------------*/

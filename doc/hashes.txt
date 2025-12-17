@@ -1,0 +1,18 @@
+For submission to Wafer.Space:
+-----------------------------------------
+URL (note that this is not in the main branch):
+-----------------------------------------
+https://github.com/RTimothyEdwards/gf180mcu_ocd_openframe/blob/caravel_picorv32/gds/caravel_openframe_filled.gds.gz
+
+Top level cellname:
+-----------------------------------------
+caravel_openframe_top
+
+Checksums:
+-----------------------------------------
+md5sum:
+826742f37b6aa4764ba466ffdbdc3ce0  caravel_openframe_filled.gds
+sha1sum:
+eea6788275d6feb8351c0f418a724e30d50d3614  caravel_openframe_filled.gds
+sha256sum:
+324a65cfe4912cb09737b7c172f992b8c68becf67a5457afb4dd286f9ada201d  caravel_openframe_filled.gds

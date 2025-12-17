@@ -78,10 +78,10 @@ module constant_block (
             .Y(zero)
     );
 
-    /* For LVS purposes, enumerate the decap cells */
+    /* For LVS purposes, enumerate the fillcap cells */
 
 `ifdef LVS
-    gf180mcu_as_sc_mcu7t3v3__decap_4 const_decap [1:0] (
+    gf180mcu_as_sc_mcu7t3v3__fillcap_4 const_fillcap [1:0] (
     `ifdef USE_POWER_PINS
             .VDD(vdd),
             .VSS(vss),

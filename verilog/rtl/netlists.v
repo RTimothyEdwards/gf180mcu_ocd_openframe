@@ -59,10 +59,15 @@
 `include "../../ip/simple_por/verilog/simple_por.v"
 
 /* User project wrapper */
-`include "openframe_project_wrapper.v"
-
-/* User project */
-`include "openframe_user_project.v"
+`ifdef LVS
+    // For LVS, use the gate level netlist produced by librelane
+    `include "../gl/openframe_project_wrapper.pnl.v"
+`else
+    // For simulation, use the behavioral verilog
+    `include "openframe_project_wrapper.v"
+    /* User project */
+    `include "openframe_user_project.v"
+`endif
 
 /* Padframe */
 `include "gf180mcu_padframe.v"

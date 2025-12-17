@@ -13,7 +13,9 @@ drc off
 crashbackups stop
 locking disable
 load caravel_openframe
+addpath ../ip/simple_por/magic
 select top cell
+snap int
 gds compress 9
 gds write caravel_openframe
 quit -noprompt
