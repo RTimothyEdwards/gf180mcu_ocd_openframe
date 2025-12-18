@@ -14,8 +14,14 @@ echo ${PDK:=gf180mcuD} > /dev/null
 # blocks including standard cells, SRAM, I/O,
 # etc.
 
+# netgen -batch lvs \
+# "../netlist/layout/caravel_openframe.spice caravel_openframe" \
+# "../verilog/rtl/netlists.v caravel_openframe" \
+# ${PDK_ROOT}/${PDK}/libs.tech/netgen/${PDK}_setup.tcl \
+# caravel_openframe_comp.out -noflatten=noflatten.lst
+
 netgen -batch lvs \
 "../netlist/layout/caravel_openframe.spice caravel_openframe" \
 "../verilog/rtl/netlists.v caravel_openframe" \
 ${PDK_ROOT}/${PDK}/libs.tech/netgen/${PDK}_setup.tcl \
-caravel_openframe_comp.out -noflatten=noflatten.lst
+caravel_openframe_comp.out
