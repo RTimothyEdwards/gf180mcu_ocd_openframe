@@ -14,6 +14,7 @@ locking disable
 load caravel_openframe
 select top cell
 # extract unique notopports
+extract unique
 extract path extfiles
 extract no all
 extract all

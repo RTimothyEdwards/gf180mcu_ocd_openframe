@@ -58,15 +58,15 @@ module user_id_programming #(
      * until netgen can be made to understand the RHS expression
      * as structural verilog.
      */
-    // genvar i;
-    // generate
-    //	for (i = 0; i < 32; i = i+1) begin
-    //	    assign mask_rev[i] = (USER_PROJECT_ID & (32'h01 << i)) ?
-    //		user_proj_id_high[i] : user_proj_id_low[i];
-    //	end
-    // endgenerate
+    // assign mask_rev = user_proj_id_low;
 
-    assign mask_rev = user_proj_id_low;
+    genvar i;
+    generate
+    for (i = 0; i < 32; i = i+1) begin
+        assign mask_rev[i] = (USER_PROJECT_ID & (32'h01 << i)) ?
+    	user_proj_id_high[i] : user_proj_id_low[i];
+    end
+    endgenerate
 
 `ifdef LVS
     /* Enumerate the fillcap cells for LVS only */
