@@ -35,30 +35,32 @@ module user_id_programming #(
     // These must be manually placed in pairs, always in the same order.
 
     gf180mcu_as_sc_mcu7t3v3__tieh_4 mask_rev_value_one [31:0] (
-`ifdef USE_POWER_PINS
+	`ifdef USE_POWER_PINS
             .VDD(VDD),
             .VSS(VSS),
 	    .VNW(VDD),
 	    .VPW(VSS),
-`endif
+	`endif
             .ONE(user_proj_id_high)
     );
 
     gf180mcu_as_sc_mcu7t3v3__tiel_4 mask_rev_value_zero [31:0] (
-    `ifdef USE_POWER_PINS
+	`ifdef USE_POWER_PINS
             .VDD(VDD),
             .VSS(VSS),
 	    .VNW(VDD),
 	    .VPW(VSS),
-    `endif
+	`endif
             .ZERO(user_proj_id_low)
     );
 
-    /* Replacing the assignment with a hard-coded connection
-     * until netgen can be made to understand the RHS expression
-     * as structural verilog.
+    /* This generate block is structural verilog but requires
+     * a parser with full understanding of verilog syntax,
+     * which netgen is not.  The script "set_user_id.py"
+     * creates/modifies a variation of this file which does
+     * not use a generate block and can be used for LVS, but
+     * which assumes a fixed value of USER_PROJECT_ID.
      */
-    // assign mask_rev = user_proj_id_low;
 
     genvar i;
     generate

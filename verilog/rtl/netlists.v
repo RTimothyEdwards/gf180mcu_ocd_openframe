@@ -53,7 +53,13 @@
 `include "gf180mcu_ocd_io__fill10z.v"
 
 /* ROM program for project ID */
-`include "user_id_programming.v"
+`ifdef LVS
+    // For LVS, use the netlist produced by set_user_id.py
+    `include "../gl/user_id_programming.v"
+`else
+    // For simulation, use the parameterized verilog
+    `include "user_id_programming.v"
+`endif
 
 /* Simple POR */
 `include "../../ip/simple_por/verilog/simple_por.v"

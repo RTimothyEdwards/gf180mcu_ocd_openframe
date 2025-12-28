@@ -1,4 +1,4 @@
-# Tcl script for setting up LVS for the gf180mcu_ocd_sram_test chip
+# Tcl script for setting up LVS for the gf180mcu_ocd_openframe chip
 
 if {[catch {set PDK_ROOT $::env(PDK_ROOT)}]} {set PDK_ROOT /usr/share/pdk} 
 if {[catch {set PDK $::env(PDK)}]} {set PDK gf180mcuD}

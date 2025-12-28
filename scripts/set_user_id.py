@@ -91,6 +91,11 @@ def usage():
     print("")
     print("  If <user_id_value> is not given, then it must exist in the info.yaml file.")
     print("  If <path_to_project> is not given, then it is assumed to be the cwd.")
+    print("")
+    print("Options:")
+    print("")
+    print("    -debug   Print diagnostic information")
+    print("    -report  Print diagnostic information")
     return 0
 
 if __name__ == '__main__':
@@ -188,8 +193,8 @@ if __name__ == '__main__':
             found = False
             idrex = re.compile("parameter USER_PROJECT_ID = 32'h([0-9A-F]+);")
 
-            # Check if USER_PROJECT_ID has a non-zero value in caravel.v
-            rtl_top_path = user_project_path + '/verilog/rtl/caravel_core.v'
+            # Check if USER_PROJECT_ID has a non-zero value in caravel_openframe.v
+            rtl_top_path = user_project_path + '/verilog/rtl/caravel_openframe.v'
             if os.path.isfile(rtl_top_path):
                 with open(rtl_top_path, 'r') as ifile:
                     vlines = ifile.read().splitlines()
@@ -207,7 +212,7 @@ if __name__ == '__main__':
                 if reportmode:
                     user_id_int = 0
                 else:
-                    print('Error:  No USER_PROJECT_ID found in caravel top level verilog.')
+                    print('Error:  No USER_PROJECT_ID found in caravel_openframe top level verilog.')
                     sys.exit(1)
         else:
             print('Error:  No info.yaml file and no user ID argument given.')
@@ -371,4 +376,28 @@ if __name__ == '__main__':
     else:
         print('Error:  Only ' + str(digit) + ' digits were replaced in the layout.')
 
+    print('Step 4:  Modify the gate-level user_id_programming module with the ID.')
+
+    # Read the ID programming verilog module.
+
+    vfile = vpath + '/gl/user_id_programming.v'
+    with open(vfile, 'r') as ifile:
+        vlines = ifile.read().splitlines()
+
+    maskrex = re.compile(r'[ \t]*assign mask_rev\[([0-9]+)\]')
+
+    # Rewrite the original file with new data
+    with open(vfile, 'w') as ofile:
+        for vline in vlines:
+            mmatch = maskrex.match(vline)
+            if mmatch:
+                i = int(mmatch.group(1))
+                if user_id_bits[i] == '1':
+                    print('    assign mask_rev[' + str(i) + '] = user_proj_id_high[' + str(i) + '];', file=ofile)
+                else:
+                    print('    assign mask_rev[' + str(i) + '] = user_proj_id_low[' + str(i) + '];', file=ofile)
+            else:
+                print(vline, file=ofile)
+
+    print('Done!')
     sys.exit(0)

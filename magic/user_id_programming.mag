@@ -775,7 +775,7 @@ box -86 -86 534 870
 use user_id_vias  user_id_vias_0
 timestamp 1764210621
 transform 1 0 1491 0 1 360
-box 376 -12 19052 1050
+box -12 -12 19052 1050
 << labels >>
 flabel metal3 6197 -168 6527 162 0 FreeSans 1600 0 0 0 VDD
 port 32 nsew
